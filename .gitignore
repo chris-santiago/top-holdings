@@ -3,3 +3,5 @@ filings/*
 *.db
 chromedriver
 *.p
+tickers/
+tickers/*
