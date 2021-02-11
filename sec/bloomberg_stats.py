@@ -83,3 +83,19 @@ data3 = {k: v for k, v in data2.items() if v}
 df = pd.DataFrame.from_dict(data3, orient='index')
 df.fillna(0, inplace=True)
 df.to_csv('key_stats.csv')
+
+
+def clean_cell(x):
+    if isinstance(x, str):
+        x = x.replace(',', '')
+        x = x.replace('%', '')
+    return x
+
+
+df = pd.read_csv('key_stats.csv')
+df = df.iloc[:, :12]
+df.fillna(0, inplace=True)
+df = df.applymap(clean_cell)
+df = pd.concat([df[['Ticker']], df.iloc[:, 1:].astype(float)], axis=1)
+df.to_sql('key_stats', con=CONN, if_exists='replace')
+CONN.close()

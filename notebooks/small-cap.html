@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="abf4367c-4e4d-4c44-b898-16eb434d60a6" data-root-id="1605"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1817">
+          {"b7bcca8f-57d2-40c4-b9a1-4a389b225b45":{"roots":{"references":[{"attributes":{"below":[{"id":"1616"}],"center":[{"id":"1619"},{"id":"1623"},{"id":"1655"}],"left":[{"id":"1620"}],"plot_height":800,"plot_width":800,"renderers":[{"id":"1645"}],"title":{"id":"1606"},"toolbar":{"id":"1632"},"x_range":{"id":"1608"},"x_scale":{"id":"1612"},"y_range":{"id":"1610"},"y_scale":{"id":"1614"}},"id":"1605","subtype":"Figure","type":"Plot"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1630","type":"BoxAnnotation"},{"attributes":{"data_source":{"id":"1640"},"glyph":{"id":"1643"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1644"},"selection_glyph":null,"view":{"id":"1646"}},"id":"1645","type":"GlyphRenderer"},{"attributes":{"source":{"id":"1640"}},"id":"1646","type":"CDSView"},{"attributes":{"axis":{"id":"1616"},"ticker":null},"id":"1619","type":"Grid"},{"attributes":{"axis_label":"Principal Component 1","formatter":{"id":"1648"},"ticker":{"id":"1617"}},"id":"1616","type":"LinearAxis"},{"attributes":{},"id":"1648","type":"BasicTickFormatter"},{"attributes":{},"id":"1625","type":"WheelZoomTool"},{"attributes":{},"id":"1617","type":"BasicTicker"},{"attributes":{"callback":null,"tooltips":[["Company","@shortName"],["Ticker","@ticker"],["Owned ($000s)","@value{0,0}"],["Industry","@industry"]]},"id":"1631","type":"HoverTool"},{"attributes":{"data":{"index":[131,262,248,598,136,463,195,17,621,365,395,321,352,507,203,473,562,407,542,204,458,454,194,369,235,202,88],"industry":["Advertising Agencies","Specialty Industrial Machinery","Electronic Gaming &amp; Multimedia","Engineering &amp; Construction","Aluminum","Oil &amp; Gas Refining &amp; Marketing","Aerospace &amp; Defense","Farm Products","None","Auto Parts","Banks\u2014Diversified","Uranium","None","None","None","Asset Management","Biotechnology","None","None","None","None","None","Pollution &amp; Treatment Controls","Biotechnology","Shell Companies","None","Biotechnology"],"market_cap":["small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small","small"],"pc1":{"__ndarray__":"GN/1TQ9e4j839Eg2t9L0v/OlHECgtee/E7FSWYrc+b/SwIzi5FAAwCsIaZh+5v6/Xt7goy6EBkDxMt9czMuNP0oahsD4Cf4/Xlc2i3MnAMByomMiHiLYP3OC3avNkRHAmtNYWTHU/j8xc8mfWaT+P2aoqrjqL/4/0QI1cDXNJEAp2BMgqLMWwDV9jCYbF/4/QE7GFQvh/T+ied/ap+P9P73qdHCsgv8/z+zRADXs/T9J0zR8BX8KwP+LduOwPBvAIXS9jlwW/j+wYUKgkBH+P33aE4sIKOy/","dtype":"float64","order":"little","shape":[27]},"pc2":{"__ndarray__":"tBLo4ieK7T/A5SmC7ofzP6vLUbWJCvo//6a5pKKy9j9iFDjeQ+L5P3kpUSHuTPw/P/iUkDBiCEDUnCzDSzrtPyNrVfZMadQ/LvjoWAIfAkCU1rH/s98GwNZPC3H/3QtAur6s8yBhtj+9Znq+RyzBPzbRI4RJyOU/H3kiP2fry79IbeXLEOEsQG3tlAoaiNM/R5/fwv1K3z/e2p36PSvePy7LmF4ezJq/e8Q3Dnng4T93zb/3hCL9P7cfI2hRagtAePT2eEv95T+4bYle4ZDkP9OT4wKaFfI/","dtype":"float64","order":"little","shape":[27]},"report_pd":["2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31"],"scaled_value":{"__ndarray__":"AAAAAAAAWUDkd702IGdNQNIKLN8kxkJAz4qQze7KOUAFRJEdlgY3QNj/a1Gx7jZAA1Ig8oZ+NkALO/5bMXU2QOjQCgNi4DVAeWV2JfCPMUCIiYLiOMcvQDr936Kbqi9AJHuQCiNHLkCq34nvLLgrQFx+KoLTPipA2ownD5HKKUDMLnBC1tsoQKFYkb/9eyhApjKOMFk0KECkgBWhfiAoQLyEz38J2CdAlExYEWrGJkDdwwH4ik0mQHlbzqK50SRAzTwHv92rJEBIM6tukRskQAAAAAAAACRA","dtype":"float64","order":"little","shape":[27]},"sector":["Communication Services","Industrials","Communication Services","Industrials","Basic Materials","Energy","Industrials","Consumer Defensive","None","Consumer Cyclical","Financial Services","Energy","None","None","None","Financial Services","Healthcare","None","None","None","None","None","Industrials","Healthcare","Financial Services","None","Healthcare"],"shortName":["Criteo S.A.","Helios Technologies, Inc.","Glu Mobile Inc.","Willdan Group, Inc.","Constellium SE","REX American Resources Corporat","Embraer S.A.","Adecoagro S.A.","SPDR S&amp;P Metals &amp; Mining ETF","Modine Manufacturing Company","Bank of N.T. Butterfield &amp; Son ","Centrus Energy Corp.","SPDR S&amp;P 400 Mid Cap Value ETF ","Pacer Benchmark Data &amp; Infrastr","iShares MSCI Malaysia Index Fun","Cohen &amp; Steers Quality Income R","Veru Inc.","VanEck Vectors Oil Services ETF","iShares MSCI Turkey Investable ","iShares MSCI Netherlands Index ","SPDR MSCI USA StrategicFactors ","First Trust NASDAQ-100 Equal We","Energy Recovery, Inc.","Marinus Pharmaceuticals, Inc.","FinTech Acquisition Corp. V","iShares Inc iShares MSCI Switze","CymaBay Therapeutics Inc."],"ticker":["CRTO","HLIO","GLUU","WLDN","CSTM","REX","ERJ","AGRO","XME","MOD","NTB","LEU","MDYV","SRVR","EWM","RQI","VERU","OIH","TUR","EWN","QUS","QQEW","ERII","MRNS","FTCV","EWL","CBAY"],"value":{"__ndarray__":"AAAAXI6+l0EAAAAgCUiKQQAAAHDlrH5BAAAAgGSSckEAAADgH3JvQQAAAODrQG9BAAAA4PFZbkEAAAAguUZuQQAAAGBJFG1BAAAAIPYxZEEAAAAg7r9gQQAAAOB3omBBAAAAAO9oXkEAAADANCRZQQAAAIAmG1ZBAAAAQL4rVUEAAADAI0BTQQAAAADFelJBAAAAQD3nUUEAAAAAW75RQQAAAMAlKVFBAAAAgGHrTUEAAACAkvlLQQAAAIBL3UVBAAAAgF9BRUEAAAAAFe9CQQAAAACLfUJB","dtype":"float64","order":"little","shape":[27]}},"selected":{"id":"1653"},"selection_policy":{"id":"1652"}},"id":"1640","type":"ColumnDataSource"},{"attributes":{},"id":"1608","type":"DataRange1d"},{"attributes":{"axis_label":"Principal Component 2","formatter":{"id":"1650"},"ticker":{"id":"1621"}},"id":"1620","type":"LinearAxis"},{"attributes":{"axis":{"id":"1620"},"dimension":1,"ticker":null},"id":"1623","type":"Grid"},{"attributes":{},"id":"1621","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.7},"fill_color":{"field":"sector","transform":{"id":"1641"}},"line_alpha":{"value":0.7},"line_color":{"field":"sector","transform":{"id":"1641"}},"size":{"field":"scaled_value","units":"screen"},"x":{"field":"pc1"},"y":{"field":"pc2"}},"id":"1643","type":"Circle"},{"attributes":{},"id":"1629","type":"HelpTool"},{"attributes":{},"id":"1624","type":"PanTool"},{"attributes":{"overlay":{"id":"1630"}},"id":"1626","type":"BoxZoomTool"},{"attributes":{},"id":"1650","type":"BasicTickFormatter"},{"attributes":{"text":"Top 50 Small-Cap Institutional Holdings"},"id":"1606","type":"Title"},{"attributes":{},"id":"1627","type":"SaveTool"},{"attributes":{"items":[{"id":"1656"},{"id":"1657"},{"id":"1658"},{"id":"1659"},{"id":"1660"},{"id":"1661"},{"id":"1662"},{"id":"1663"},{"id":"1664"}],"location":"top_left"},"id":"1655","type":"Legend"},{"attributes":{},"id":"1628","type":"ResetTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"sector","transform":{"id":"1641"}},"line_alpha":{"value":0.1},"line_color":{"field":"sector","transform":{"id":"1641"}},"size":{"field":"scaled_value","units":"screen"},"x":{"field":"pc1"},"y":{"field":"pc2"}},"id":"1644","type":"Circle"},{"attributes":{"index":0,"label":{"value":"Communication Services"},"renderers":[{"id":"1645"}]},"id":"1657","type":"LegendItem"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1624"},{"id":"1625"},{"id":"1626"},{"id":"1627"},{"id":"1628"},{"id":"1629"},{"id":"1631"}]},"id":"1632","type":"Toolbar"},{"attributes":{"index":16,"label":{"value":"Healthcare"},"renderers":[{"id":"1645"}]},"id":"1662","type":"LegendItem"},{"attributes":{"index":8,"label":{"value":"None"},"renderers":[{"id":"1645"}]},"id":"1664","type":"LegendItem"},{"attributes":{"index":1,"label":{"value":"Industrials"},"renderers":[{"id":"1645"}]},"id":"1663","type":"LegendItem"},{"attributes":{"index":7,"label":{"value":"Consumer Defensive"},"renderers":[{"id":"1645"}]},"id":"1659","type":"LegendItem"},{"attributes":{"index":4,"label":{"value":"Basic Materials"},"renderers":[{"id":"1645"}]},"id":"1656","type":"LegendItem"},{"attributes":{"factors":["Communication Services","Industrials","Basic Materials","Energy","Consumer Defensive","None","Consumer Cyclical","Financial Services","Healthcare"],"palette":["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd"]},"id":"1641","type":"CategoricalColorMapper"},{"attributes":{},"id":"1652","type":"UnionRenderers"},{"attributes":{},"id":"1653","type":"Selection"},{"attributes":{"index":10,"label":{"value":"Financial Services"},"renderers":[{"id":"1645"}]},"id":"1661","type":"LegendItem"},{"attributes":{},"id":"1614","type":"LinearScale"},{"attributes":{"index":9,"label":{"value":"Consumer Cyclical"},"renderers":[{"id":"1645"}]},"id":"1658","type":"LegendItem"},{"attributes":{"index":5,"label":{"value":"Energy"},"renderers":[{"id":"1645"}]},"id":"1660","type":"LegendItem"},{"attributes":{},"id":"1610","type":"DataRange1d"},{"attributes":{},"id":"1612","type":"LinearScale"}],"root_ids":["1605"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1817').textContent;
+                  var render_items = [{"docid":"b7bcca8f-57d2-40c4-b9a1-4a389b225b45","root_ids":["1605"],"roots":{"1605":"abf4367c-4e4d-4c44-b898-16eb434d60a6"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

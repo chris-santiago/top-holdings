@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="76095033-4de3-4801-be8c-5aa9707ad3a7" data-root-id="9794"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="10299">
+          {"c0b66a2c-dfea-48dc-94aa-f50572f10dc2":{"roots":{"references":[{"attributes":{"below":[{"id":"9803"}],"center":[{"id":"9806"},{"id":"9810"},{"id":"9843"}],"left":[{"id":"9807"}],"plot_height":500,"plot_width":500,"renderers":[{"id":"9832"}],"title":{"id":"9835"},"toolbar":{"id":"9819"},"x_range":{"id":"9795"},"x_scale":{"id":"9799"},"y_range":{"id":"9797"},"y_scale":{"id":"9801"}},"id":"9794","subtype":"Figure","type":"Plot"},{"attributes":{"axis":{"id":"9807"},"dimension":1,"ticker":null},"id":"9810","type":"Grid"},{"attributes":{},"id":"9811","type":"PanTool"},{"attributes":{"text":""},"id":"9835","type":"Title"},{"attributes":{},"id":"9812","type":"WheelZoomTool"},{"attributes":{"overlay":{"id":"9817"}},"id":"9813","type":"BoxZoomTool"},{"attributes":{"items":[{"id":"9844"},{"id":"9845"},{"id":"9846"},{"id":"9847"},{"id":"9848"}]},"id":"9843","type":"Legend"},{"attributes":{},"id":"9841","type":"Selection"},{"attributes":{"source":{"id":"9827"}},"id":"9833","type":"CDSView"},{"attributes":{},"id":"9804","type":"BasicTicker"},{"attributes":{},"id":"9808","type":"BasicTicker"},{"attributes":{},"id":"9837","type":"BasicTickFormatter"},{"attributes":{"formatter":{"id":"9839"},"ticker":{"id":"9804"}},"id":"9803","type":"LinearAxis"},{"attributes":{},"id":"9839","type":"BasicTickFormatter"},{"attributes":{},"id":"9815","type":"ResetTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"9811"},{"id":"9812"},{"id":"9813"},{"id":"9814"},{"id":"9815"},{"id":"9816"},{"id":"9818"}]},"id":"9819","type":"Toolbar"},{"attributes":{"formatter":{"id":"9837"},"ticker":{"id":"9808"}},"id":"9807","type":"LinearAxis"},{"attributes":{},"id":"9795","type":"DataRange1d"},{"attributes":{"index":4,"label":{"value":"micro"},"renderers":[{"id":"9832"}]},"id":"9846","type":"LegendItem"},{"attributes":{"index":6,"label":{"value":"large"},"renderers":[{"id":"9832"}]},"id":"9844","type":"LegendItem"},{"attributes":{},"id":"9799","type":"LinearScale"},{"attributes":{"index":37,"label":{"value":"small"},"renderers":[{"id":"9832"}]},"id":"9848","type":"LegendItem"},{"attributes":{"factors":["mega","micro","large","mid","small"],"palette":["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd"]},"id":"9828","type":"CategoricalColorMapper"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"field":"market_cap","transform":{"id":"9828"}},"line_alpha":{"value":0.5},"line_color":{"field":"market_cap","transform":{"id":"9828"}},"size":{"field":"value","units":"screen"},"x":{"field":"pc1"},"y":{"field":"pc2"}},"id":"9830","type":"Circle"},{"attributes":{},"id":"9814","type":"SaveTool"},{"attributes":{"index":0,"label":{"value":"mega"},"renderers":[{"id":"9832"}]},"id":"9845","type":"LegendItem"},{"attributes":{"index":13,"label":{"value":"mid"},"renderers":[{"id":"9832"}]},"id":"9847","type":"LegendItem"},{"attributes":{"data":{"company":["MICROSOFT CORP","APPLE INC","FACEBOOK INC","ALPHABET INC - A","ISHARES TR","AMAZON.COM INC","ORACLE CORP","JOHNSON &amp; JOHNSON","WESTERN DIGITAL CORP","FINANCIAL SELECT SECTOR SPDR","T-MOBILE US INC","VISA INC","JPMORGAN CHASE &amp; CO","ARROW ELECTRONICS INC","BANK OF AMERICA CORP","VISHAY INTERTECHNOLOGY INC","SPDR S&amp;P 500 ETF TR","PFIZER INC","TESLA INC","VANGUARD FTSE ALL-WORLD EX-US ETF","DISNEY WALT CO","PROCTER &amp; GAMBLE CO/THE","PAYPAL HOLDINGS, INC.","INTEL CORP","UNITEDHEALTH GROUP INC","CITIGROUP INC","TECHNOLOGY SELECT SECTOR SPDR FUND","MASTERCARD INC","NIKE INC","CISCO SYSTEMS INC","BERKSHIRE HATHAWAY INC DEL","S&amp;P GLOBAL INC","HOME DEPOT INC","THERMO FISHER SCIENTIFIC INC","GILEAD SCIENCES INC","COMMUNICATION SERVICES SEL SECT SPDR FD","HEALTH CARE SELECT SECTOR SPDR FUND","CRITEO SA ADR","CONSUMER DISCRETIONARY SELECT SECT SPDR FD","MEDTRONIC PLC","TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR","PEPSICO INC","MONDELEZ INTERNATIONAL INC","TRANE TECHNOLOGIES PLC","MERCK &amp; CO INC","UNION PACIFIC CORP","MORGAN STANLEY","COMCAST CORP. CL.A","VANGUARD INTERMEDIATE TERM CORP BOND","CATERPILLAR INC"],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49],"market_cap":["mega","mega","mega","mega","micro","mega","large","mega","large","large","large","mega","mega","mid","mega","mid","mega","large","mega","large","mega","mega","mega","mega","mega","large","large","mega","mega","mega","mega","large","mega","large","large","large","large","small","large","large","mega","large","large","large","large","large","large","mega","large","large"],"pc1":{"__ndarray__":"qrA7c32B97/jCST5xLr5v9fqhjGkifC/E+j66wkhEcDec0ZHQA6oPz+5uVCnIQ7AHdzFYIxNyb8U9Nj63zTivwXbpaHSorI/m+EE1IgWqD9JZmcUh4mzv/RvWCqmf9u/SQ+xr7z15L+Tzr+ARZPZvySg1pDTtci/loqPeCpg2j/fn7ZEdXnFv2p3INdcCpm/zKJo6IQnwz/+1GZEazGtP5wxSpQNFLA/sJ+fb6nd1L+EljmYj/LDv0qRJGniZdC/V3UgFfty8L+oo52fXYXQv/iS6uAHfZ0/9VkEtUxt27/mVClhmOO3vzdI0S435b6/ss/iXonB4L/4sR2lfdLbvy9Ia+RzvuO/yCJkbl9E8L9OOwaB2mnUv7TV59KJB6c/usqzajVJqD+X0lGTiDetP5uamfZVwKQ/M1QRKWsOsL/Ac8s+6JYBwDyB5BBIRMe/5nAq1UhIlr81KUhyFJmxvwkyzPAfBdW/Za6ok3/h2L8ilCNfJu/Tv9adtukvA8S/IILrPurxpD/8cjW5N7/Svw==","dtype":"float64","order":"little","shape":[50]},"pc2":{"__ndarray__":"ybWesPFCD0AqyRY4XZwRQEmUzX2N+wJA1He4EQ+lJkDzLCXhgUTrvxpt+7NfQiRAOYTW2IAnuT+1uBfUHXzzP0RQQLs1HuG/nJcPAMr/6b+x1eN3OItQv7IW//hDP+w/XhSVk/199z8nxCnrxRDgP3HlvcTf86I/Af4G7/yU478JYIfIMzLJv5kYPc1qn6+/0ivJMyz29T8IhirjiELqv/JvIojO27s/I/yU7AzB5D8TMzXhhz3XP9ay8Aw6YdU/IIVtVkvMAkCdc2fQxKnHP5qXkM2xAum/WT4IOC1u7T/rmRnTRbV1v2k9VU0YLom/P5DhwEQ67D+jMhGwsq3wP3Fxt6veKfg/QZveoKAfA0BXjEQCEEvRP0EMaSO9seq/iQJ/diJC6r/VPAvC6nLiv52Ew6cHOeq/qO2WOZddob8jgBFQER0XQCzPv5buRNg/B0PHNnxa07+ggXrSBiemv8aMpHgEZto/nWddT8Ao6D8D6gjKql7WPzmcn1qz4ma/NFUGCgE66b81o1ZcH+7bPw==","dtype":"float64","order":"little","shape":[50]},"report_pd":["2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31"],"ticker":["MSFT","AAPL","FB","GOOGL","IUSN","AMZN","ORCL","JNJ","WDC","XLF","TMUS","V","JPM","ARW","BAC","VSH","SPY","PFE","TSLA","VEU","DIS","PG","PYPL","INTC","UNH","C","XLK","MA","NKE","CSCO","BRK/B","SPGI","HD","TMO","GILD","XLC","XLV","CRTO","XLY","MDT","TSM","PEP","MDLZ","TT","MRK","UNP","MS","CMCSA","VCIT","CAT"],"value":{"__ndarray__":"PQtCeZ8LXUB2e//VGaxVQIhITbsYvFFAzktqDUpUUUCIga59gTtQQJ0ZWCKr3kxA1L4Uee3XREAyxofZy2tDQDFUD+IUU0BAqGIZ0SytO0DqC3ygcBc7QLmT46mi7zpAOYw4U9emOUCUv3tHjRM5QGW4Syw6TTZAuTB30mcYM0A7RJIPMOMwQM4LwbumqTBA0prV8U5iMEAZo7/hTxAwQFiErLiCmy1ARbNXxFVyLUD4Vn/fGossQIKPwYpTxStAiZQLOsaSK0Bqc/eU96gqQCrxb4bRPipAhkJf1bQWKkAI4As48CsoQNfS7Ta5jSdAg9H2+TknJ0ATZjW4CGcmQJnkkYmlwiVAB9kNNtCPJUAVJXxKKaskQFn/QurRQyRAnmgNlMoOJEBvxh/7D+sjQCa5DbRMwCNAkXtfAfELI0CQcXs4NwQjQDp/yXz2AiNA21+He3a2IkDHpku1BbIiQD9/69SmqyJAfS2eMBebIkCV6eEV0jsiQBuw9VZuNyJAritmhLeLIUAJLMq2HXghQA==","dtype":"float64","order":"little","shape":[50]}},"selected":{"id":"9841"},"selection_policy":{"id":"9840"}},"id":"9827","type":"ColumnDataSource"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"9817","type":"BoxAnnotation"},{"attributes":{},"id":"9801","type":"LinearScale"},{"attributes":{"axis":{"id":"9803"},"ticker":null},"id":"9806","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"market_cap","transform":{"id":"9828"}},"line_alpha":{"value":0.1},"line_color":{"field":"market_cap","transform":{"id":"9828"}},"size":{"field":"value","units":"screen"},"x":{"field":"pc1"},"y":{"field":"pc2"}},"id":"9831","type":"Circle"},{"attributes":{},"id":"9816","type":"HelpTool"},{"attributes":{},"id":"9840","type":"UnionRenderers"},{"attributes":{"callback":null,"tooltips":[["Company","@company"],["Owned ($10bil)","@value"]]},"id":"9818","type":"HoverTool"},{"attributes":{"data_source":{"id":"9827"},"glyph":{"id":"9830"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"9831"},"selection_glyph":null,"view":{"id":"9833"}},"id":"9832","type":"GlyphRenderer"},{"attributes":{},"id":"9797","type":"DataRange1d"}],"root_ids":["9794"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('10299').textContent;
+                  var render_items = [{"docid":"c0b66a2c-dfea-48dc-94aa-f50572f10dc2","root_ids":["9794"],"roots":{"9794":"76095033-4de3-4801-be8c-5aa9707ad3a7"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

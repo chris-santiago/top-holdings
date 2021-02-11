@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="79e7afe5-5af9-4f3a-a117-16e7e0bd4d28" data-root-id="1002"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1181">
+          {"fec25315-0d40-4d6f-8026-ad2145e2ecc0":{"roots":{"references":[{"attributes":{},"id":"1014","type":"BasicTicker"},{"attributes":{"index":4,"label":{"value":"Consumer Cyclical"},"renderers":[{"id":"1042"}]},"id":"1054","type":"LegendItem"},{"attributes":{"axis_label":"Principal Component 1","formatter":{"id":"1045"},"ticker":{"id":"1014"}},"id":"1013","type":"LinearAxis"},{"attributes":{"below":[{"id":"1013"}],"center":[{"id":"1016"},{"id":"1020"},{"id":"1052"}],"left":[{"id":"1017"}],"plot_height":800,"plot_width":800,"renderers":[{"id":"1042"}],"title":{"id":"1003"},"toolbar":{"id":"1029"},"x_range":{"id":"1005"},"x_scale":{"id":"1009"},"y_range":{"id":"1007"},"y_scale":{"id":"1011"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{"index":31,"label":{"value":"Energy"},"renderers":[{"id":"1042"}]},"id":"1056","type":"LegendItem"},{"attributes":{"callback":null,"tooltips":[["Company","@shortName"],["Ticker","@ticker"],["Owned ($000s)","@value{0,0}"],["Industry","@industry"]]},"id":"1028","type":"HoverTool"},{"attributes":{"index":5,"label":{"value":"Healthcare"},"renderers":[{"id":"1042"}]},"id":"1058","type":"LegendItem"},{"attributes":{},"id":"1047","type":"BasicTickFormatter"},{"attributes":{"axis":{"id":"1013"},"ticker":null},"id":"1016","type":"Grid"},{"attributes":{},"id":"1022","type":"WheelZoomTool"},{"attributes":{"index":10,"label":{"value":"None"},"renderers":[{"id":"1042"}]},"id":"1059","type":"LegendItem"},{"attributes":{"axis_label":"Principal Component 2","formatter":{"id":"1047"},"ticker":{"id":"1018"}},"id":"1017","type":"LinearAxis"},{"attributes":{"axis":{"id":"1017"},"dimension":1,"ticker":null},"id":"1020","type":"Grid"},{"attributes":{},"id":"1018","type":"BasicTicker"},{"attributes":{},"id":"1026","type":"HelpTool"},{"attributes":{"index":0,"label":{"value":"Technology"},"renderers":[{"id":"1042"}]},"id":"1060","type":"LegendItem"},{"attributes":{},"id":"1021","type":"PanTool"},{"attributes":{},"id":"1049","type":"UnionRenderers"},{"attributes":{"overlay":{"id":"1027"}},"id":"1023","type":"BoxZoomTool"},{"attributes":{},"id":"1050","type":"Selection"},{"attributes":{},"id":"1024","type":"SaveTool"},{"attributes":{},"id":"1025","type":"ResetTool"},{"attributes":{"items":[{"id":"1053"},{"id":"1054"},{"id":"1055"},{"id":"1056"},{"id":"1057"},{"id":"1058"},{"id":"1059"},{"id":"1060"}],"location":"top_left"},"id":"1052","type":"Legend"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"},{"id":"1028"}]},"id":"1029","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"sector","transform":{"id":"1038"}},"line_alpha":{"value":0.1},"line_color":{"field":"sector","transform":{"id":"1038"}},"size":{"field":"scaled_value","units":"screen"},"x":{"field":"pc1"},"y":{"field":"pc2"}},"id":"1041","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.7},"fill_color":{"field":"sector","transform":{"id":"1038"}},"line_alpha":{"value":0.7},"line_color":{"field":"sector","transform":{"id":"1038"}},"size":{"field":"scaled_value","units":"screen"},"x":{"field":"pc1"},"y":{"field":"pc2"}},"id":"1040","type":"Circle"},{"attributes":{"source":{"id":"1037"}},"id":"1043","type":"CDSView"},{"attributes":{"data":{"index":[374,3,215,251,34,303,555,305,60,338,502,536,157,429,451,289,550,389,133,111,259,537,399,7,316,589,9,517,386,603,129,622,423,584],"industry":["Software\u2014Infrastructure","Consumer Electronics","Internet Content &amp; Information","Internet Content &amp; Information","Internet Retail","Drug Manufacturers\u2014General","Credit Services","Banks\u2014Diversified","Banks\u2014Diversified","Credit Services","None","Auto Manufacturers","Entertainment","Household &amp; Personal Products","Credit Services","Semiconductors","Healthcare Plans","Footwear &amp; Accessories","Communication Equipment","Entertainment","Home Improvement Retail","Semiconductors","Semiconductors","Medical Devices","Beverages\u2014Non-Alcoholic","Telecom Services","Software\u2014Infrastructure","Telecom Services","Entertainment","Discount Stores","Software\u2014Application","Oil &amp; Gas Integrated","Internet Retail","None"],"market_cap":["mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega","mega"],"pc1":{"__ndarray__":"R6ae+WDOJkAH2ZEZEBI1QIcuXKZ4R/Q/D9O+RvU3LcBZELtjRUwswA/Zvo3Zl/Q/DeIfobsszL+0YU9gNTXmP3FT43CcGRdAxNVQnJu98z8jpyaPSY0YQMmhay8XW/8/0HDnk+8utL/qMiy3OFf0P1AqEmH/Yey/JCCCMRpJDEBF1n99lwn1v4o5IOMzxMA/vvsFHIHCCEDKFuPY1g8CQP0lxH/EOvS/X319VUFfIUDU5kCfCj36v0QeIhka5Oc/jXXc+47GCUCAC9ZnmvUEQKf3foTPGfi/PJxXFgSXFUCFgdwY+0zvv+G8jGYylQlAoPvTnSKZ0r8Of+bPP6wRQIw6Z/2Ib9A/N2W04oOXAkA=","dtype":"float64","order":"little","shape":[34]},"pc2":{"__ndarray__":"xeYZtfmYLMAZFhsizRUewPhvvnqrPyPASHVKZvg7F8DqK54ch/YPwPdsjeIahRXAn7yPpyjxEcBBRTIyNWASwGNaRpyhIBbAshDG1iw3A0BZoxLQ8i/lv+xfHizNAxlAHA1N0nuoB8AmrSWmvE8GwHCy4cQBLQPAfkmeaFhfCMDszavaOdoIwIiX5vQCd/i/97Jequ4oBMAZthcsVikJwJUrR/uyTg3AJnvIDLN2FEBAcGPE5EEBwE9Z+BWX0vS/RxSkMaiaAsArAqHNHTEHwP2bFnoW0/2/hQcFmbdeEcCowRZl0nr5vz1KdcGwYxVAmilYeuCQ7T+24NMj99wFwEyUfH408gJADU9WCwXbx78=","dtype":"float64","order":"little","shape":[34]},"report_pd":["2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31","2020-12-31"],"scaled_value":{"__ndarray__":"AAAAAAAAWUB2mmGU/ExTQDXTTP6VMFBA2tana3nsT0BRGMY4Jj1LQOcYWwW5CkRA2PVo0YMAP0A8QKG+xns9QL6+J5k5jTtAkmyseobKNkCME2JFIKg2QLlDSuy8QzZAVkIOhZ4INUDiIwkvlfg0QCrwjdOGnjRACqmhMMJzNEBtTYN8zz00QBPu32ym6jJAZFwP6QetMkBC4xgnCo0yQCURCIQ8+jFAbUSvbneoMUC8r9+WtzAxQP7l9u0nhDBAmo6zFiNaL0Agu73mlvwuQJSIPJw9qi5AB90I8qz+LUCsIldINXMtQMTQebPf+yxABJTm8x9vLEDoKqNbIvgqQJQAUHAXHiRAAAAAAAAAJEA=","dtype":"float64","order":"little","shape":[34]},"sector":["Technology","Technology","Communication Services","Communication Services","Consumer Cyclical","Healthcare","Financial Services","Financial Services","Financial Services","Financial Services","None","Consumer Cyclical","Communication Services","Consumer Defensive","Financial Services","Technology","Healthcare","Consumer Cyclical","Technology","Communication Services","Consumer Cyclical","Technology","Technology","Healthcare","Consumer Defensive","Communication Services","Technology","Communication Services","Communication Services","Consumer Defensive","Technology","Energy","Consumer Cyclical","None"],"shortName":["Microsoft Corporation","Apple Inc.","Facebook, Inc.","Alphabet Inc.","Amazon.com, Inc.","Johnson &amp; Johnson","Visa Inc.","JP Morgan Chase &amp; Co.","Bank of America Corporation","Mastercard Incorporated","SPDR S&amp;P 500","Tesla, Inc.","Walt Disney Company (The)","Procter &amp; Gamble Company (The)","PayPal Holdings, Inc.","Intel Corporation","UnitedHealth Group Incorporated","Nike, Inc.","Cisco Systems, Inc.","Comcast Corporation","Home Depot, Inc. (The)","Taiwan Semiconductor Manufactur","NVIDIA Corporation","Abbott Laboratories","Coca-Cola Company (The)","Verizon Communications Inc.","Adobe Inc.","AT&amp;T Inc.","Netflix, Inc.","Walmart Inc.","Salesforce.com Inc","Exxon Mobil Corporation","Pinduoduo Inc.","Vanguard Total Stock Market ETF"],"ticker":["MSFT","AAPL","FB","GOOGL","AMZN","JNJ","V","JPM","BAC","MA","SPY","TSLA","DIS","PG","PYPL","INTC","UNH","NKE","CSCO","CMCSA","HD","TSM","NVDA","ABT","KO","VZ","ADBE","T","NFLX","WMT","CRM","XOM","PDD","VTI"],"value":{"__ndarray__":"AABABfpP0UEAAIDlC+fJQQAAgIc3JMVBAAAALevKxEEAAACELjXBQQAAACOsZrdBAAAABJxzsEEAAADeSJSuQQAAAIJpn6tBAAAAaklWpEEAAAAypCGkQQAAAFYBiKNBAAAAir2loUEAAACkMo2hQQAAALxfA6FBAAAAsuvBoEEAAAB8W2+gQQAAAOyY0JxBAAAAlP0TnEEAAAAAErKbQQAAAHC68JlBAAAAhHH2mEEAAAC86IeXQQAAAOS5d5VBAAAAeGDlkkEAAACgNVaSQQAAAFgu2JFBAAAALJ3RkEEAAAD4VviPQQAAAHATi45BAAAA2EPcjEEAAAAYemCIQQAAAMD+PFtBAAAAgCZcWEE=","dtype":"float64","order":"little","shape":[34]}},"selected":{"id":"1050"},"selection_policy":{"id":"1049"}},"id":"1037","type":"ColumnDataSource"},{"attributes":{},"id":"1005","type":"DataRange1d"},{"attributes":{"factors":["Technology","Communication Services","Consumer Cyclical","Healthcare","Financial Services","None","Consumer Defensive","Energy"],"palette":["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896"]},"id":"1038","type":"CategoricalColorMapper"},{"attributes":{"text":"Top 50 Mega-Cap Institutional Holdings"},"id":"1003","type":"Title"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1027","type":"BoxAnnotation"},{"attributes":{},"id":"1011","type":"LinearScale"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{},"id":"1045","type":"BasicTickFormatter"},{"attributes":{"index":13,"label":{"value":"Consumer Defensive"},"renderers":[{"id":"1042"}]},"id":"1055","type":"LegendItem"},{"attributes":{},"id":"1007","type":"DataRange1d"},{"attributes":{"index":2,"label":{"value":"Communication Services"},"renderers":[{"id":"1042"}]},"id":"1053","type":"LegendItem"},{"attributes":{"data_source":{"id":"1037"},"glyph":{"id":"1040"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1041"},"selection_glyph":null,"view":{"id":"1043"}},"id":"1042","type":"GlyphRenderer"},{"attributes":{"index":6,"label":{"value":"Financial Services"},"renderers":[{"id":"1042"}]},"id":"1057","type":"LegendItem"}],"root_ids":["1002"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1181').textContent;
+                  var render_items = [{"docid":"fec25315-0d40-4d6f-8026-ad2145e2ecc0","root_ids":["1002"],"roots":{"1002":"79e7afe5-5af9-4f3a-a117-16e7e0bd4d28"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

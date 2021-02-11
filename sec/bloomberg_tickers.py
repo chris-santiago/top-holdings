@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 from sec.sql import create_connection, execute_query
+from sec.cluster import StringCluster
 from tqdm import tqdm
 import json
 
@@ -54,33 +55,42 @@ data = pd.read_sql(
     con=CONN
 )
 data['company'] = data['company'].str.upper()
-data = data.groupby('company').sum()
-top_1000 = data.sort_values(by='value', ascending=False).iloc[:1000, :]
+data = data.groupby('company').sum().reset_index().sort_values(by='value', ascending=False).iloc[:10000, :]
+data = data[data['company'] != '']  # remove blanks
+data.reset_index(drop=True, inplace=True)
+cluster = StringCluster()
+labels = cluster.fit_transform(data['company'])
+data['company'] = labels.values
+top_1000 = data.groupby('company').sum().sort_values(by='value', ascending=False).iloc[:1000, :]
+
+# out = top_1000.reset_index(drop=True)
+# with open('tickers.json', 'r') as fp:
+#     ticker_map = json.load(fp)
+# out['ticker'] = out['company']
+# out['ticker'] = out['ticker'].replace(ticker_map)
 
 api = BloombergAPI()
-
 tickers = []
 for company in tqdm(top_1000.index):
     tickers.append(api.get_ticker(company))
-
 ticker_map = dict(zip(top_1000.index, tickers))
 
-with open('tickers.json', 'w') as fp:
+with open('tickers2.json', 'w') as fp:
     json.dump(ticker_map, fp)
-
 
 out = top_1000.reset_index()
 out.insert(1, 'ticker', tickers)
 out.insert(0, 'report_pd', '2020-12-31')
-
-query = """
-    create table top_1000 (
-    report_pd TEXT,
-    company TEXT,
-    ticker TEXT,
-    value REAL
-    );
-    """
-execute_query(CONN, query)
-out.to_sql('top_1000', CONN, if_exists='append', index=False)
+out.to_sql('top_1000', CONN, if_exists='replace', index=False)
 CONN.close()
+
+# query = """
+#     create table top_1000 (
+#     report_pd TEXT,
+#     company TEXT,
+#     ticker TEXT,
+#     value REAL
+#     );
+#     """
+# execute_query(CONN, query)
+
