@@ -3,7 +3,7 @@ import aiohttp
 import aiohttp.web
 import asyncio
 import pandas as pd
-import json
+from sec.sql import create_connection
 
 
 class YahooAPI:
@@ -68,11 +68,14 @@ class YahooStats(YahooAPI):
         parsed = {}
         for item in self.data_:
             ticker = item[0]
-            details = item[1]['quoteSummary']['result'][0]
-            parsed[ticker] = {
-                'summary': details['summaryDetail'],
-                'stats': details['defaultKeyStatistics']
-            }
+            try:
+                details = item[1]['quoteSummary']['result'][0]
+                parsed[ticker] = {
+                    'summary': details['summaryDetail'],
+                    'stats': details['defaultKeyStatistics']
+                }
+            except (TypeError, KeyError):
+                parsed[ticker] = None
         return parsed
 
 
@@ -90,7 +93,7 @@ class YahooHistory(YahooAPI):
     async def fetch_all(self, tickers):
         i = 0
         batch_size = 10
-        connector = aiohttp.TCPConnector(limit=10)
+        connector = aiohttp.TCPConnector(limit=20)
         async with aiohttp.ClientSession(connector=connector) as client:
             results = []
             while i < len(tickers):
@@ -104,5 +107,45 @@ class YahooHistory(YahooAPI):
         parsed = {}
         for item in self.data_[0]:
             ticker = list(item.keys())[0]
-            parsed[ticker] = item[ticker].get('close')
+            try:
+                parsed[ticker] = item[ticker].get('close')
+            except (TypeError, KeyError):
+                parsed[ticker] = None
         return parsed
+
+
+def main():
+    conn = create_connection('sec.db')
+    top = pd.read_sql('select * from top_holdings;', conn)
+    stats = YahooStats()
+    stats.run(top['ticker'])
+    stats_data = stats.parse()
+
+    def parse_summary(data, query='summary'):
+        out = {}
+        for ticker in data:
+            if data[ticker]:
+                inside = {}
+                for metric in data[ticker][query]:
+                    if isinstance(data[ticker][query][metric], dict):
+                        inside[metric] = data[ticker][query][metric].get('raw')
+                    else:
+                        inside[metric] = data[ticker][query][metric]
+                out[ticker] = inside
+            else:
+                out[ticker] = None
+        return out
+
+    def to_dataframe(parsed):
+        df = pd.DataFrame().from_dict(parsed).T
+        df.dropna(axis=0, how='all', inplace=True)
+        df.dropna(axis=1, how='all', inplace=True)
+        df.fillna(0, inplace=True)
+        df = df.iloc[:, 2:].reset_index()
+        return df
+
+    for table in ['summary', 'stats']:
+        out = parse_summary(stats_data, table)
+        out = to_dataframe(out)
+        out.to_sql(f'yahoo_{table}', conn, if_exists='replace', index=False)
+    conn.close()

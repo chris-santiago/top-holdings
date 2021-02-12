@@ -5,7 +5,7 @@ FILES = HERE.parent.glob('tickers/*.txt')
 
 
 class Tickers:
-    FILES = ['tickers/AMEX.txt', 'tickers/NASDAQ.txt', 'tickers/NYSE.txt', 'tickers/OTCBB.txt']
+    FILES = ['tickers/otcbb.txt', 'tickers/AMEX.txt', 'tickers/NASDAQ.txt', 'tickers/NYSE.txt']
 
     def __init__(self, files=None):
         self.files = files if files else self.FILES
