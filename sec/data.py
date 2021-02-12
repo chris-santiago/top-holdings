@@ -8,34 +8,63 @@ from sklearn.manifold import Isomap, MDS
 
 
 CONN = create_connection('sec.db')
-top_stocks = pd.read_sql('select * from top_1000;', CONN)
-bloomberg = pd.read_sql('select * from key_stats;', CONN)
-yahoo = pd.read_sql('select * from yahoo_stats;', CONN)
+
+holdings = pd.read_sql('select * from top_holdings;', CONN)
+summary = pd.read_sql(
+    """
+    select ticker, dividendYield, beta, trailingPE, forwardPE, averageVolume, 
+    marketCap
+    from yahoo_summary;
+    """,
+    CONN
+)
+stats = pd.read_sql(
+    """
+    select ticker, profitMargins, shortPercentOfFloat, priceToBook, pegRatio,
+    enterpriseToRevenue, enterpriseToEbitda, "52WeekChange"
+    from yahoo_stats;
+    """,
+    CONN
+)
+profile = pd.read_sql(
+    """
+    select ticker, industry, sector
+    from yahoo_profile
+    where industry != 0 and industry != ""
+    """,
+    CONN
+)
 CONN.close()
 
-data = top_stocks.groupby(['report_pd', 'ticker']).sum().reset_index(level=0)
-data = data.merge(bloomberg.set_index('Ticker').iloc[:, 1:], left_index=True, right_index=True)
-data = yahoo.set_index('symbol').merge(data, left_index=True, right_index=True).sort_index()
-
-num_data = data.iloc[:, 3:].reset_index(drop=True).drop('report_pd', axis=1)
-data.index.names = ['ticker']
-data = data[['report_pd', 'shortName', 'sector', 'industry', 'value']].reset_index()
-data['market_cap'] = pd.cut(
-    num_data['Market Cap (M)'],
-    bins=[-np.inf, 300, 2000, 10000, 200000, np.inf],
+data = holdings.set_index('ticker').merge(profile.set_index('ticker'), left_index=True, right_index=True)
+data = data.merge(summary.set_index('ticker'), left_index=True, right_index=True)
+data = data.merge(stats.set_index('ticker'), left_index=True, right_index=True)
+cap = pd.cut(
+    data['marketCap'],
+    bins=[-np.inf, 3e8, 2e9, 10e9, 2e11, np.inf],
     labels=['micro', 'small', 'mid', 'large', 'mega']
 )
+data.insert(4, 'market_cap', cap)
 
-pl = Pipeline(
-    steps=[
-        ('scaler', StandardScaler()),
-        # ('pca', PCA(n_components=2)),
-        # ('encode', Isomap(n_neighbors=3, n_components=2)),
-        ('mds', MDS())
-    ]
-)
-components = pl.fit_transform(num_data)
 
-data['pc1'] = components[:, 0]
-data['pc2'] = components[:, 1]
-data.to_csv('data.csv', index=False)
+for mcap in data['market_cap'].unique():
+    mask = data['market_cap'] == mcap
+    df = data[mask]
+    df = df.sort_values('value', ascending=False)
+    df_profile = df.iloc[:50, :5]
+    df_num = df.iloc[:50, 5:].astype(float)
+    df_num.replace(np.inf, 0, inplace=True)
+    pl = Pipeline(
+        steps=[
+            ('scaler', StandardScaler()),
+            # ('pca', PCA(n_components=2)),
+            # ('encode', Isomap(n_neighbors=3, n_components=2)),
+            ('mds', MDS())
+        ]
+    )
+    components = pl.fit_transform(df_num)
+    fn = f'data-{mcap}.csv'
+    out = df_profile.reset_index()
+    out['pc1'] = components[:, 0]
+    out['pc2'] = components[:, 1]
+    out.to_csv(fn, index=False)

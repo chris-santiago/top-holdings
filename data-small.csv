@@ -1,0 +1,51 @@
+ticker,company,value,industry,sector,market_cap,pc1,pc2
+CRTO,Criteo S.A. Ads,99600607.0,Advertising Agencies,Communication Services,small,1.1232163693104265,1.141586483014011
+BOE,Blackrock Global,85420836.0,Asset Management,Financial Services,small,1.6294937452942073,-1.3395695676207497
+HLIO,Helios Technologies Inc,55116068.0,Specialty Industrial Machinery,Industrials,small,1.4940757900880448,1.5551046844025755
+CNR,Cornerstone Building Brands Inc,27070664.0,Building Products & Equipment,Industrials,small,0.3981753636098809,1.7888445724084157
+WLDN,Willdan Group Inc,19488640.0,Engineering & Construction,Industrials,small,0.09916990682898191,0.2966014787104046
+VRCA,Verrica Pharmaceuticals Inc,17579501.0,Biotechnology,Healthcare,small,-1.3326098418578258,2.09530068151295
+ERJ,Embraer-Empresa Brasileira DE Aeronautica,15915095.0,Aerospace & Defense,Industrials,small,-0.6605087175851394,-0.8821965574933244
+AGRO,Adecoagro S.A.,15873481.0,Farm Products,Consumer Defensive,small,-1.115272429250767,-2.988982826585817
+FLNG,Flex Lng Ltd,14494519.0,Oil & Gas Midstream,Energy,small,0.6672704890009156,-1.266077900695399
+BATRB,Liberty Media,11036542.0,Entertainment,Communication Services,small,0.6489614155391273,0.2111933641815865
+NHF,Nexpoint Strategic Opportunities Fund,10665371.0,Asset Management,Financial Services,small,0.2627366083180691,-1.801627073870196
+MOD,Modine Manufacturing Company,10602718.0,Auto Parts,Consumer Cyclical,small,0.27093577139570213,2.3685733036432586
+NTB,Bank of Butterfield Ltd,8798834.0,Banks—Diversified,Financial Services,small,2.096453677514475,0.6196019893934549
+MARK,Remark Holdings Inc,8525239.0,Internet Content & Information,Communication Services,small,-6.493466185592009,2.1243507907002437
+RPTX,Repare Therapeutics Inc,6943790.0,Biotechnology,Healthcare,small,0.1153946367675882,-0.7500036558393356
+IESC,Ies Holdings,6419527.0,Engineering & Construction,Industrials,small,-4.722199443480558,-12.629010302792542
+VERU,Veru Inc,5050470.0,Biotechnology,Healthcare,small,-5.928967300939582,-1.3812535964872237
+EFSC,Enterprises Finl Svc,4380155.0,Banks—Regional,Financial Services,small,1.0054555687953906,0.27753280724091167
+OCX,Oncocyte Corp,4111801.0,Biotechnology,Healthcare,small,-3.0978594413595637,-2.3359391656318844
+ERII,Energy Recovery Inc,3667899.0,Pollution & Treatment Controls,Industrials,small,2.5695132827678426,2.4640163816844853
+QD,Qudian Inc ADR,3430588.0,Credit Services,Financial Services,small,-2.0307235833666653,-1.518205381122832
+NBEV,New Age Beverages Corp,3082443.0,Beverages—Non-Alcoholic,Consumer Defensive,small,-1.0630113663618002,0.20333018905158373
+GLAD,Gladstone Cap Corp,2942305.0,Asset Management,Financial Services,small,2.4018567710182217,-1.1580523054220513
+CBAY,Cymabay Therapeutics,2423574.0,Biotechnology,Healthcare,small,-2.011293040865079,-0.04938717525994676
+HTGC,Hercules Technology Growth Capital,2262894.0,Mortgage Finance,Financial Services,small,2.8107513975056873,0.33084681439340424
+ROAD,Construction Partners Inc Cl A,2191993.0,Engineering & Construction,Industrials,small,0.6683930517764617,0.8591825302211783
+THFF,First Finl Corp [In],1954984.0,Banks—Regional,Financial Services,small,0.9853683193852131,-0.7737243579471332
+BUR,Burford Capital Limited,1841185.0,Asset Management,Financial Services,small,1.4002837239541814,1.2873829002589567
+QURE,Uniqure N.V.,1688595.0,Biotechnology,Healthcare,small,-1.3515236198844522,0.943113421287041
+AVXL,Anavex Lf SC,1640422.0,Biotechnology,Healthcare,small,-2.1256218485756513,-0.7602687004070237
+USNA,Usana Health Sciences Inc,1544609.0,Household & Personal Products,Consumer Defensive,small,0.9112342435975359,1.3789690424558825
+AERI,Aerie Pharmaceuticals,1488819.0,Drug Manufacturers—Specialty & Generic,Healthcare,small,-2.5462761058998593,1.6454883744839401
+GGN,Gamco Global Gold Natural Resources,1471469.0,Asset Management,Financial Services,small,3.167343648662111,-1.8380554647963632
+ZGNX,Zogenix Inc,1423041.0,Biotechnology,Healthcare,small,-1.3717305783887443,1.5350430393930947
+GTN,Gray Television,1306248.0,Broadcasting,Communication Services,small,0.818959614780742,1.786691763048342
+AINV,Apollo Investment Company,1300214.0,Asset Management,Financial Services,small,0.12854411406182972,0.8405669253216957
+UUUU,Energy Fuels Inc,1296246.0,Uranium,Energy,small,-4.033195982637865,-0.45499237406516274
+GBX,Greenbrier Companies,1264194.0,Railroads,Industrials,small,2.0383507617471075,7.417732839824867
+YMAB,Y-Mabs Therapeutics Inc,1244094.0,Biotechnology,Healthcare,small,-0.6805685473457254,2.096764775344556
+IIAC,Investindustrial Acquisition Corp Cl A,1239851.0,Shell Companies,Financial Services,small,0.212948533394079,-1.6907572468517793
+CLB,Core Laboratories N.V.,1237042.0,Oil & Gas Equipment & Services,Energy,small,0.3906141961078771,3.7576345447090063
+FFA,First Trust Enhanced Equity Income Fund,1218508.0,Asset Management,Financial Services,small,2.328983835607478,-1.7680176659636937
+RQI,Cohen & Steers Quality Income Realty Fund Inc,1212456.0,Asset Management,Financial Services,small,3.3586501591360594,0.7550433472692416
+HPF,John Hancock Pfd II,1185326.0,Asset Management,Financial Services,small,1.7417628669599388,-1.8803142500314969
+EOI,Eaton Vance Enhance Equity,1183231.0,Asset Management,Financial Services,small,4.752519341688258,-2.747345770615587
+NXE,Nexgen Energy Ltd,1147718.0,Uranium,Energy,small,-0.5582628266258418,1.39870805660518
+ACTC,Arclight Clean Transition Corp. Cl A,1135960.0,Shell Companies,Financial Services,small,-0.9915332191253373,-1.6071927280321299
+GUT,Gabelli Utility Trust,1129268.0,Asset Management,Financial Services,small,1.293978078955756,-2.7591621000166686
+NEWT,Newtek Bus Svcs,1083629.0,Asset Management,Financial Services,small,2.6990294415863234,-1.2372796364647898
+MDGL,Madrigal Pharmaceuticals Inc,1063702.0,Biotechnology,Healthcare,small,-2.3758006460130496,4.438210703452866

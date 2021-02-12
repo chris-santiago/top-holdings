@@ -54,7 +54,7 @@ class YahooStats(YahooAPI):
 
     async def fetch(self, ticker, client):
         endpoint = f'v11/finance/quoteSummary/{ticker}'
-        payload = {'modules': 'summaryDetail,defaultKeyStatistics'}
+        payload = {'modules': 'summaryDetail,defaultKeyStatistics,assetProfile'}
         return ticker, await self.get(client, endpoint, payload)
 
     async def fetch_all(self, tickers):
@@ -72,7 +72,8 @@ class YahooStats(YahooAPI):
                 details = item[1]['quoteSummary']['result'][0]
                 parsed[ticker] = {
                     'summary': details['summaryDetail'],
-                    'stats': details['defaultKeyStatistics']
+                    'stats': details['defaultKeyStatistics'],
+                    'profile': details['assetProfile']
                 }
             except (TypeError, KeyError):
                 parsed[ticker] = None
