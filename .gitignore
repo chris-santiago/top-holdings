@@ -5,3 +5,5 @@ chromedriver
 *.p
 tickers/
 tickers/*
+old_files/
+old_files*

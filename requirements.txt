@@ -6,3 +6,4 @@ tqdm
 aiofiles
 html5lib
 yfinance
+aiohttp
