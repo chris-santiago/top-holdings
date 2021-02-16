@@ -4,6 +4,7 @@ import aiohttp.web
 import asyncio
 import pandas as pd
 from sec.sql import create_connection
+import os
 
 
 class YahooAPI:
@@ -11,7 +12,7 @@ class YahooAPI:
     URL = 'https://yahoo-finance-low-latency.p.rapidapi.com'
 
     HEADERS = {
-        'x-rapidapi-key': "a9f14ee177mshde145bc2ef518aap11e8b7jsn33f1e888c4f1",
+        'x-rapidapi-key': os.environ['api_key'],
         'x-rapidapi-host': "yahoo-finance-low-latency.p.rapidapi.com"
     }
 
