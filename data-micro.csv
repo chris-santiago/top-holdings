@@ -1,51 +1,51 @@
 ticker,company,value,industry,sector,market_cap,pc1,pc2
-SYNJ,Day Tradexchange Inc,98804617.0,Consulting Services,Industrials,micro,0.2523007481872908,-0.80713805599744
-CRWE,Crown Equity Holdings Inc,86682053.0,Consulting Services,Industrials,micro,6.701777350326181,2.1672663315129124
-ALNA,Allena Pharmaceuticals Inc,51652212.0,Biotechnology,Healthcare,micro,0.4926997182968816,1.570596190072931
-ACFL,Amc Financial Holdings Inc,31767183.0,Banks—Regional,Financial Services,micro,-0.3108289469277247,-0.8281911789192968
-OIIM,O2Micro Intl Ltd,22069812.0,Semiconductors,Technology,micro,-7.582884289646264,-3.0522626565002744
-SRNN,Southern Banc CO Inc,20735873.0,Banks—Regional,Financial Services,micro,0.5253788280851445,-1.6858727594406775
-HRCR,Hershey Creamery CO,16871786.0,Packaged Foods,Consumer Defensive,micro,-0.3045618994400695,-0.32901550939081636
-AREC,American Resources Corp,16321052.0,Coking Coal,Basic Materials,micro,-0.6895843564493467,2.3172996509270236
-HENC,Hero Technologies Inc,15300113.0,Oil & Gas E&P,Energy,micro,-0.32317259422613165,-0.039378698608656226
-PVNNF,Pv Nano Cell Ltd,13289881.0,Specialty Chemicals,Basic Materials,micro,3.139262602340551,3.9314052891473454
-HTIA,Healthcare TR Inc,11714734.0,REIT—Healthcare Facilities,Real Estate,micro,1.2788127368768225,-2.457834282622948
-ARMP,Armata Pharmaceuticals Inc,9722782.0,Biotechnology,Healthcare,micro,0.8520093848948355,1.8543262182517108
-BDXB,Becton Dickinson & CO,9254899.0,Medical Instruments & Supplies,Healthcare,micro,1.014799476162682,-1.4214326126999663
-LEU,Centrus Energy Corp,8725974.0,Uranium,Energy,micro,2.0374049306746342,0.9668060182224879
-WWDH,Worldwide Holdings Corp,8035088.0,Shell Companies,Financial Services,micro,-1.3913881356407194,-7.1054856240379785
-INCC,Int Consolidated Cos,7760900.0,Specialty Business Services,Industrials,micro,6.712167187192054,-3.704576978106677
-ADIL,Adial Pharmaceuticals Inc,7700932.0,Biotechnology,Healthcare,micro,0.7889264219701003,2.3587923202782712
-SITOQ,Sito Mobile,7352421.0,Telecom Services,Communication Services,micro,-2.0916507457700284,0.816676574163454
-CIWT,China Indl Waste Mgmt Inc,7347154.0,Waste Management,Industrials,micro,-0.0813740509383521,-0.602366808515462
-SWWI,Simon Worldwide Inc,6269658.0,Advertising Agencies,Communication Services,micro,-0.33635320048826345,0.2743376161159622
-GDVM,Global Develpmts,6159731.0,Asset Management,Financial Services,micro,-0.8679771951681327,-0.33440855616740317
-ERINQ,Erin Energy Corp,5895262.0,Oil & Gas E&P,Energy,micro,-1.9609548876111627,4.874702290122036
-FEI,First Trust MLP and Energy Inc,5615443.0,Asset Management,Financial Services,micro,3.610619171909133,-0.7396440651882484
-GRYG,Green Energy Group Inc,5563673.0,Solar,Technology,micro,2.7315735461072803,-5.629466235058665
-ASPZ,Asia Pptys Inc,5091845.0,Real Estate Services,Real Estate,micro,-0.6392912944117913,-0.28082716227071186
-SGTN,Soligen Technologies,4894617.0,Oil & Gas E&P,Energy,micro,-0.624833785793441,0.08805406169108883
-SVFAU,Svf Investment Corp,4768079.0,Shell Companies,Financial Services,micro,-0.3968676483812974,-0.26346866623921866
-SHERF,Sherritt International Corp,4658402.0,Other Industrial Metals & Mining,Basic Materials,micro,-1.5128263630908754,2.1984162771445153
-LPTC,Leap Technology Inc,4396816.0,Conglomerates,Industrials,micro,-1.4727840407044681,-0.5951871650016254
-PATI,Patriot TR HD,4296785.0,Trucking,Industrials,micro,-3.2003296668324057,-2.670940801657
-PCGU,PG&E Corp,4010132.0,Utilities—Regulated Electric,Utilities,micro,-1.0504381252254145,-1.5968644194174366
-ISTC,Instructivision Inc,3610284.0,Education & Training Services,Consumer Defensive,micro,-1.1729367150396182,-0.4733172873259357
-IIVIP,Ii-Vi Inc,3505175.0,Scientific & Technical Instruments,Technology,micro,-0.07701780871481595,-2.858156676844745
-RMED,Ra Medical Systems Inc,3479607.0,Medical Devices,Healthcare,micro,-0.15530135733726183,0.2225250706838822
-PTN,Palatin Technologies,3198828.0,Biotechnology,Healthcare,micro,1.4133689331387966,2.943377026988946
-PRSRU,Prospector Capital Corp,3171275.0,Shell Companies,Financial Services,micro,-0.3975613729421964,-0.25163486871129026
-SCPH,SC Pharmaceuticals Inc,2990716.0,Biotechnology,Healthcare,micro,0.6558674903513841,1.115374199931953
-CGIX,Cancer Genetics Inc,2867107.0,Biotechnology,Healthcare,micro,1.5341776624071901,7.003177739160035
-TSBK,Timberland Bancorp,2713917.0,Banks—Regional,Financial Services,micro,1.9064657350551237,0.12522052421985594
-AGNCP,Agnc Investment Corp,2437887.0,REIT—Mortgage,Real Estate,micro,1.261674581308231,-1.6147938476624593
-AVTI,Avitar Inc,2393338.0,Medical Devices,Healthcare,micro,-2.5516328144482343,0.5248607589493546
-STRS,Stratus Pptys Inc,2391152.0,Real Estate—Diversified,Real Estate,micro,-2.8659405711577826,4.112923826168532
-HEQ,John Hancock Hedged Eqty & Inc,2349378.0,Asset Management,Financial Services,micro,2.867574963677431,-1.5750001017468183
-CEJOF,Cresco Ltd,2311095.0,Information Technology Services,Technology,micro,1.917443789940071,0.4948915597647704
-VALPQ,Valaris Plc,2299266.0,Oil & Gas Drilling,Energy,micro,-5.966095821638417,2.4288460366376494
-HZMMF,Horizonte Minerals Plc,2135249.0,Other Industrial Metals & Mining,Basic Materials,micro,0.830410508555352,0.6035047190326942
-FT,Franklin Universal Trust,2019882.0,Asset Management,Financial Services,micro,1.715970563239399,-0.30201602067433153
-ISUN,Sun Inc,1975017.0,Solar,Technology,micro,-2.4465605538418784,1.5216496546458638
-NDMCF,New Destiny Mining Corp,1817518.0,Other Industrial Metals & Mining,Basic Materials,micro,-0.2714064251141406,-0.25308884191344516
-CBMB,Cbm Bancorp Inc,1799222.0,Banks—Regional,Financial Services,micro,-3.498131663716336,-3.042660073113753
+ALNA,Allena Pharmaceuticals Inc,51652212.0,Biotechnology,Healthcare,micro,-0.08309637529927529,-3.6414298971199446
+OIIM,O2Micro Intl Ltd,22069812.0,Semiconductors,Technology,micro,-0.09124641188887862,-3.9592885039084726
+AREC,American Resources Corp,16321052.0,Coking Coal,Basic Materials,micro,-1.2152282744190546,-2.390912079947187
+HENC,Hero Technologies Inc,15300113.0,Oil & Gas E&P,Energy,micro,-1.9141040421388318,-3.5893347476113315
+HTIA,Healthcare TR Inc,11714734.0,REIT—Healthcare Facilities,Real Estate,micro,3.841072840557959,1.6305017105562891
+ARMP,Armata Pharmaceuticals Inc,9722782.0,Biotechnology,Healthcare,micro,-0.3405793987782854,-0.9952905625957126
+LEU,Centrus Energy Corp,8725974.0,Uranium,Energy,micro,-4.60854345253028,-1.6576118687665018
+ADIL,Adial Pharmaceuticals Inc,7700932.0,Biotechnology,Healthcare,micro,1.267707893557496,1.9609180538066109
+FEI,First Trust MLP and Energy Inc,5615443.0,Asset Management,Financial Services,micro,-0.2655851383032406,0.2758038318110065
+PATI,Patriot TR HD,4296785.0,Trucking,Industrials,micro,1.4203151003529384,-1.9458139526020393
+RMED,Ra Medical Systems Inc,3479607.0,Medical Devices,Healthcare,micro,1.1139794526933553,-0.30308244754608366
+CGIX,Cancer Genetics Inc,2867107.0,Biotechnology,Healthcare,micro,1.5314865831158027,3.484900023900523
+TSBK,Timberland Bancorp,2713917.0,Banks—Regional,Financial Services,micro,-1.763509506623705,-1.6857413693592223
+AGNCP,Agnc Investment Corp,2437887.0,REIT—Mortgage,Real Estate,micro,1.768702714410908,2.318866840941589
+STRS,Stratus Pptys Inc,2391152.0,Real Estate—Diversified,Real Estate,micro,-1.8818082615199074,-1.1916027320504978
+HEQ,John Hancock Hedged Eqty & Inc,2349378.0,Asset Management,Financial Services,micro,0.9449017612634513,1.0531870856001662
+FT,Franklin Universal Trust,2019882.0,Asset Management,Financial Services,micro,1.8318476733558489,0.4061301004746771
+CBMB,Cbm Bancorp Inc,1799222.0,Banks—Regional,Financial Services,micro,1.2401800508858172,-2.169236677438881
+DMO,Western Asset Mortgage Defined Opp,1544757.0,Asset Management,Financial Services,micro,0.5235417006256435,0.5565218042319481
+QNTA,Quanta Inc,1302962.0,Household & Personal Products,Consumer Defensive,micro,1.0034821201870745,11.662509647699405
+CNTY,Century Casinos IN,1299867.0,Resorts & Casinos,Consumer Cyclical,micro,-3.5922885485614784,0.4843267749149276
+CATO,Cato Corp,1265652.0,Apparel Retail,Consumer Cyclical,micro,-6.393840088539258,-6.96507341984096
+EDI,Stone Harbor Emerging Markets,1187250.0,Asset Management,Financial Services,micro,0.9113058741146969,1.6380194057157798
+TCFCP,TCF Financial Corp,1132970.0,Banks—Regional,Financial Services,micro,2.815480241980356,1.4924412926933934
+USDP,USD Partners LP,1130778.0,Railroads,Industrials,micro,-0.8741897811611786,2.803644493368385
+AAIRF,American Aires Inc,1025902.0,Electronic Components,Technology,micro,0.6661756774305593,-0.3893249351158645
+SREV,Servicesrce Intl Inc,995319.0,Software—Application,Technology,micro,1.320220588745116,2.048975029914245
+ZIONP,Zions Bancorporation N.A.,935446.0,Banks—Regional,Financial Services,micro,4.033614580852615,0.22868705898700184
+ACER,Acer Therapeutics Inc,759597.0,Biotechnology,Healthcare,micro,-1.8289293665654427,-1.5182100121708901
+NJMC,New Jersey Mining Company,716408.0,Gold,Basic Materials,micro,0.02662893252165377,6.551306282675586
+TMST,Timken Steel Corp,695497.0,Steel,Basic Materials,micro,-6.160252166267652,-6.720541616249508
+UNB,Union Bankshares Inc,584581.0,Banks—Regional,Financial Services,micro,0.06067027917274211,-0.5722469748289627
+IDN,Intellicheck Mobilisia,580060.0,Software—Application,Technology,micro,-6.651714752365284,-3.034922189782325
+TWN,Taiwan Fund,574436.0,Asset Management,Financial Services,micro,-0.5122364033902019,-0.5383214430253053
+BERK,Berkshire Bancorp,551875.0,Banks—Regional,Financial Services,micro,2.6855822069459214,0.6598219278872685
+FMNJ,Franklin Mining Inc,546010.0,Other Precious Metals & Mining,Basic Materials,micro,22.665671610653582,-4.257591524976531
+DTEA,Davidstea Inc,489268.0,Packaged Foods,Consumer Defensive,micro,0.05016537375348523,-2.318651334843391
+SLCT,Select Bancorp Inc,487517.0,Banks—Regional,Financial Services,micro,-1.4850007329090462,-2.685359945496059
+FCNE,Four Corners Inc,456515.0,Gambling,Consumer Cyclical,micro,1.2976067361658967,2.770898177502053
+UEPS,Net 1 Ueps Techs Inc,453829.0,Software—Infrastructure,Technology,micro,2.897262401128829,-1.8077244310435538
+OGEN,Oragenics Inc,453369.0,Biotechnology,Healthcare,micro,-9.639603164586168,11.237724546555658
+URG,Ur Energy Inc,441747.0,Uranium,Energy,micro,-0.4884139901438077,-1.4314086696161923
+UTI,Universal Technical Institute Inc,410631.0,Education & Training Services,Consumer Defensive,micro,-4.944755914907853,-5.44989767481289
+AGE,Agex Therapeutics Inc,407007.0,Biotechnology,Healthcare,micro,-1.1949205449646567,-2.00498441083666
+MCUJF,Medicure Inc,404898.0,Biotechnology,Healthcare,micro,0.19203520602402105,6.107724564038112
+NWHM,New Home CO Llc,394625.0,Residential Construction,Consumer Cyclical,micro,1.687032368709664,3.7551683349116622
+BBK,Blackrock Muni Trust,384693.0,Asset Management,Financial Services,micro,1.1079422874363931,-1.4323604831198589
+PFIS,Peoples Finl Svcs Company,341434.0,Banks—Regional,Financial Services,micro,-2.1968737431647236,-0.8418831760479142
+MTBC,Mtbc Inc,338578.0,Health Information Services,Healthcare,micro,-0.41083494100670565,-0.18778370883006743
+RGT,Royce Global Value Trust Inc,336436.0,Asset Management,Financial Services,micro,-0.36705725660689936,2.5575538013965233

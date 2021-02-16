@@ -1,51 +1,51 @@
 ticker,company,value,industry,sector,market_cap,pc1,pc2
-ORCL,Oracle Corp,416903429.0,Software—Infrastructure,Technology,large,0.160071562049508,-2.019633851594572
-WDC,Western Digital Cp,326511687.0,Computer Hardware,Technology,large,-2.497021757026918,1.9920945649556225
-TMUS,T-Mobile US,301589015.0,Telecom Services,Communication Services,large,-0.201908422584617,1.2461651899547341
-PFE,Pfizer Inc,167000151.0,Drug Manufacturers—General,Healthcare,large,0.24239125759283162,-6.47265810403704
-C,Citigroup Inc,133532579.0,Banks—Diversified,Financial Services,large,-4.540539926754271,-1.622996507078182
-MDLZ,Mondelez Intl Inc,122050628.0,Confectioners,Consumer Defensive,large,-0.058454442535167676,0.7034922845087251
-CSCO,Cisco Systems Inc,118279816.0,Communication Equipment,Technology,large,-0.766729164315487,-3.1491504060163904
-SPGI,S&P Global Inc,112584563.0,Financial Data & Stock Exchanges,Financial Services,large,4.231245633844265,-2.9567646517707487
-GILD,Gilead Sciences Inc,103394949.0,Drug Manufacturers—General,Healthcare,large,1.5988799831131082,5.07668735478654
-TJX,TJX Companies,100414636.0,Apparel Retail,Consumer Cyclical,large,0.5536033677156142,1.6826542485565805
-MDT,Medtronic Inc,95313481.0,Medical Devices,Healthcare,large,0.2975276606235089,-0.7933229523567963
-PEP,Pepsico Inc,95276673.0,Beverages—Non-Alcoholic,Consumer Defensive,large,1.5016886924141064,-1.05980954704834
-TT,Trane Technologies Plc,93522942.0,Specialty Industrial Machinery,Industrials,large,-1.7613340264341073,1.5421932453765173
-MRK,Merck & Company,93474549.0,Drug Manufacturers—General,Healthcare,large,-0.7021429650601383,-2.4803087705276887
-UNP,Union Pacific Corp,93412486.0,Railroads,Industrials,large,0.4869658475168476,-1.238764428474017
-MS,Morgan Stanley,91337070.0,Capital Markets,Financial Services,large,-2.9645787665671843,-0.6352188761355755
-DG,Dollar General Corp,90819460.0,Discount Stores,Consumer Defensive,large,-0.7352412963321031,1.1813024494940245
-CAT,Caterpillar Inc,87397710.0,Farm & Heavy Construction Machinery,Industrials,large,-0.8736412465023773,-0.24289273861043956
-DHR,Danaher Corp,87104618.0,Diagnostics & Research,Healthcare,large,1.4553155832772715,-0.29420156933668656
-ACN,Accenture Plc,84996034.0,Information Technology Services,Technology,large,-0.45306482748083776,-0.646722939267388
-AXP,American Express Company,83619487.0,Credit Services,Financial Services,large,-1.8075477062107863,0.01953856662502665
-QCOM,Qualcomm Inc,82987720.0,Semiconductors,Technology,large,-0.24558896328840035,-1.7232223311408652
-LOW,Lowe's Companies,78276413.0,Home Improvement Retail,Consumer Cyclical,large,-1.5316888605107069,-0.3837156662286057
-CVX,Chevron Corp,72665246.0,Oil & Gas Integrated,Energy,large,-3.021441685797189,-2.8919879744435857
-HON,Honeywell International Inc,69668754.0,Specialty Industrial Machinery,Industrials,large,-0.35101325223499547,-0.6057038720539307
-LIN,Linde Plc,69299729.0,Specialty Chemicals,Basic Materials,large,-0.08724024276052393,-0.2343605658084256
-EMR,Emerson Electric Company,69278045.0,Specialty Industrial Machinery,Industrials,large,-1.9456353628195227,0.4940374184663617
-MCD,McDonald's Corp,66283252.0,Restaurants,Consumer Cyclical,large,1.326280327709053,-1.497357184718113
-MCHP,Microchip Technology,64201574.0,Semiconductors,Technology,large,-0.3249882977653865,2.69211133408135
-SBUX,Starbucks Corp,63393280.0,Restaurants,Consumer Cyclical,large,1.8072122808851712,1.3420376636322124
-LLY,Eli Lilly and Company,63159658.0,Drug Manufacturers—General,Healthcare,large,1.4602775038764122,-2.1029747847342257
-COST,Costco Wholesale,62943834.0,Discount Stores,Consumer Defensive,large,-0.6141835916862666,0.1375874304848033
-AON,AON Plc,61646805.0,Insurance Brokers,Financial Services,large,-0.45397134475055473,5.049763414452167
-UPS,United Parcel Service,61311731.0,Integrated Freight & Logistics,Industrials,large,-1.8727709438219904,-5.439394242997181
-ULTA,Ulta Beauty Inc,61027334.0,Specialty Retail,Consumer Cyclical,large,-4.172684398406387,6.710542979624478
-ZTS,Zoetis Inc Cl A,60712536.0,Drug Manufacturers—Specialty & Generic,Healthcare,large,2.4588230908005877,0.24780531249636917
-ATVI,Activision Blizzard,56791140.0,Electronic Gaming & Multimedia,Communication Services,large,1.7484383458380155,0.42912827135869513
-BMY,Bristol-Myers Squibb Company,56611083.0,Drug Manufacturers—General,Healthcare,large,-3.420305735278254,-1.8780103370392938
-CHTR,Charter Communicatio,56338759.0,Entertainment,Communication Services,large,-1.2637447440497565,3.532779312118104
-ABBV,Abbvie Inc,55553206.0,Drug Manufacturers—General,Healthcare,large,-1.4954605944945147,-2.7156054786996435
-JD,Jd.com Inc Ads,55194872.0,Internet Retail,Consumer Cyclical,large,-5.934929020948854,2.168203598083699
-TXN,Texas Instruments,52915557.0,Semiconductors,Technology,large,1.9702229274321084,-2.2460792428191465
-INTU,Intuit Inc,51860462.0,Software—Application,Technology,large,2.849333830016777,0.10273131139966045
-A,Agilent Technologies,50538839.0,Diagnostics & Research,Healthcare,large,0.9677844743922995,1.1684706594332919
-NEE,Nextera Energy,50005041.0,Utilities—Regulated Electric,Utilities,large,2.065379777892709,-1.10495150315434
-CCI,Crown Castle International Corp,49252763.0,REIT—Specialty,Real Estate,large,3.9020887049787345,-0.16163574916926238
-ETSY,Etsy Inc,49243529.0,Internet Retail,Consumer Cyclical,large,9.650675081128597,3.3195599322912615
-LH,Laboratory Corp of America Holdings,48568764.0,Diagnostics & Research,Healthcare,large,-1.3221486746143918,1.724180676339621
-BIIB,Biogen Inc,48291058.0,Drug Manufacturers—General,Healthcare,large,0.9914528787532111,2.364964576552238
-EQIX,Equinix Inc,48058494.0,REIT—Specialty,Real Estate,large,3.6943414491809534,1.6694124801884027
+ORCL,Oracle Corp,416903429.0,Software—Infrastructure,Technology,large,-5.634302179889528,-3.52855426115281
+WDC,Western Digital Cp,326511687.0,Computer Hardware,Technology,large,13.595313469006232,-0.6967524726496003
+TMUS,T-Mobile US,301589015.0,Telecom Services,Communication Services,large,-8.931807058176116,-2.7243126463218488
+PFE,Pfizer Inc,167000151.0,Drug Manufacturers—General,Healthcare,large,-5.975297934230978,-8.575361795368345
+C,Citigroup Inc,133532579.0,Banks—Diversified,Financial Services,large,16.751723133224154,-1.9915380489843093
+MDLZ,Mondelez Intl Inc,122050628.0,Confectioners,Consumer Defensive,large,-3.684764823750885,-1.5413587411873084
+CSCO,Cisco Systems Inc,118279816.0,Communication Equipment,Technology,large,-6.670200114026,-6.740973363926489
+SPGI,S&P Global Inc,112584563.0,Financial Data & Stock Exchanges,Financial Services,large,-3.403836277401757,2.3622629869952787
+GILD,Gilead Sciences Inc,103394949.0,Drug Manufacturers—General,Healthcare,large,-7.013078772778576,-1.2328931569104122
+TJX,TJX Companies,100414636.0,Apparel Retail,Consumer Cyclical,large,12.134548399196417,-1.516657385428963
+MDT,Medtronic Inc,95313481.0,Medical Devices,Healthcare,large,7.0382153196061035,-1.6553818965580422
+PEP,Pepsico Inc,95276673.0,Beverages—Non-Alcoholic,Consumer Defensive,large,-4.103565361557289,-2.430938279579736
+TT,Trane Technologies Plc,93522942.0,Specialty Industrial Machinery,Industrials,large,3.8001233505314587,0.14799668239533312
+MRK,Merck & Company,93474549.0,Drug Manufacturers—General,Healthcare,large,-5.915238101402172,-7.803157103379005
+UNP,Union Pacific Corp,93412486.0,Railroads,Industrials,large,6.782185934785568,0.16889363229537332
+MS,Morgan Stanley,91337070.0,Capital Markets,Financial Services,large,12.044828506895948,3.939740108953061
+DG,Dollar General Corp,90819460.0,Discount Stores,Consumer Defensive,large,-5.630160262099205,0.1415065499759154
+CAT,Caterpillar Inc,87397710.0,Farm & Heavy Construction Machinery,Industrials,large,3.57779832976165,0.48200660422424957
+DHR,Danaher Corp,87104618.0,Diagnostics & Research,Healthcare,large,-3.266750084088869,3.636208005479923
+ACN,Accenture Plc,84996034.0,Information Technology Services,Technology,large,0.0988857889810411,1.0508639765199463
+AXP,American Express Company,83619487.0,Credit Services,Financial Services,large,15.071803053302098,-1.0576915362851869
+QCOM,Qualcomm Inc,82987720.0,Semiconductors,Technology,large,-6.396755431383247,3.045219682448755
+LOW,Lowe's Companies,78276413.0,Home Improvement Retail,Consumer Cyclical,large,2.2361432705717785,3.1335960278346002
+CVX,Chevron Corp,72665246.0,Oil & Gas Integrated,Energy,large,7.571411768412596,-8.103055301661836
+HON,Honeywell International Inc,69668754.0,Specialty Industrial Machinery,Industrials,large,10.978663833334592,0.5000058770279912
+LIN,Linde Plc,69299729.0,Specialty Chemicals,Basic Materials,large,4.164106975043133,0.30899579264682725
+EMR,Emerson Electric Company,69278045.0,Specialty Industrial Machinery,Industrials,large,9.027365445417956,2.606482258665994
+MCD,McDonald's Corp,66283252.0,Restaurants,Consumer Cyclical,large,0.07749818851694809,-0.8171208574284536
+MCHP,Microchip Technology,64201574.0,Semiconductors,Technology,large,6.403097627566085,8.571311423002053
+SBUX,Starbucks Corp,63393280.0,Restaurants,Consumer Cyclical,large,4.8336434956948215,0.3993325221960256
+LLY,Eli Lilly and Company,63159658.0,Drug Manufacturers—General,Healthcare,large,-9.648615816037955,-15.265061948061284
+COST,Costco Wholesale,62943834.0,Discount Stores,Consumer Defensive,large,-5.574222211207903,-0.3859776039782631
+AON,AON Plc,61646805.0,Insurance Brokers,Financial Services,large,-4.445217638490052,-0.2614961167299055
+UPS,United Parcel Service,61311731.0,Integrated Freight & Logistics,Industrials,large,0.9760302059773462,0.4439251710059013
+ULTA,Ulta Beauty Inc,61027334.0,Specialty Retail,Consumer Cyclical,large,18.852802760485748,-3.1385795966070273
+ZTS,Zoetis Inc Cl A,60712536.0,Drug Manufacturers—Specialty & Generic,Healthcare,large,-2.607013909431002,0.8457559649341648
+ATVI,Activision Blizzard,56791140.0,Electronic Gaming & Multimedia,Communication Services,large,-9.491533426632248,2.6600978194329543
+BMY,Bristol-Myers Squibb Company,56611083.0,Drug Manufacturers—General,Healthcare,large,-0.5258872146038753,-9.62759385630258
+CHTR,Charter Communicatio,56338759.0,Entertainment,Communication Services,large,-6.081145158828016,-0.5430511269411407
+ABBV,Abbvie Inc,55553206.0,Drug Manufacturers—General,Healthcare,large,-4.788945504157398,-9.849596506301767
+JD,Jd.com Inc Ads,55194872.0,Internet Retail,Consumer Cyclical,large,-9.44162369676026,6.394160632170244
+TXN,Texas Instruments,52915557.0,Semiconductors,Technology,large,0.5781923130474178,6.069645169365697
+INTU,Intuit Inc,51860462.0,Software—Application,Technology,large,-2.121623534069121,8.228900416552195
+A,Agilent Technologies,50538839.0,Diagnostics & Research,Healthcare,large,0.2573033111383984,4.539697923405257
+NEE,Nextera Energy,50005041.0,Utilities—Regulated Electric,Utilities,large,-3.75728186354763,2.375230227800042
+CCI,Crown Castle International Corp,49252763.0,REIT—Specialty,Real Estate,large,-5.700925973121463,0.60115415098582
+ETSY,Etsy Inc,49243529.0,Internet Retail,Consumer Cyclical,large,-8.553357478947385,20.2411917396704
+LH,Laboratory Corp of America Holdings,48568764.0,Diagnostics & Research,Healthcare,large,-2.254226237266257,4.633043428960142
+BIIB,Biogen Inc,48291058.0,Drug Manufacturers—General,Healthcare,large,-6.356858359128747,0.389052362028315
+EQIX,Equinix Inc,48058494.0,REIT—Specialty,Real Estate,large,-8.877450057483546,1.5708264647718408

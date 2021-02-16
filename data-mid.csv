@@ -1,51 +1,51 @@
 ticker,company,value,industry,sector,market_cap,pc1,pc2
-ARW,Arrow Electronics,250804072.0,Electronics & Computer Distribution,Technology,mid,1.2349807252774125,0.19539956884419343
-VSH,Vishay Intertechnology,190955726.0,Semiconductors,Technology,mid,-0.42379322580286094,-0.05014827444227289
-CCOJY,Coca Cola West CO Ltd,75363663.0,Beverages—Non-Alcoholic,Consumer Defensive,mid,2.4569482319181946,-1.7674539740401536
-STLD,Steel Dynamics Inc,41766026.0,Steel,Basic Materials,mid,2.776777008381755,-0.5270405744214166
-VIAV,Viavi Solutions,40152105.0,Communication Equipment,Technology,mid,-0.7680451016379732,-2.746990322357798
-SANM,Sanmina Corp,38267244.0,Electronic Components,Technology,mid,-0.7162596829799607,-0.2670535892846978
-MTZ,Mastec Inc,38244405.0,Engineering & Construction,Industrials,mid,-2.337988610973783,-1.2637317477183048
-GLUU,Glu Mobile Inc,32171446.0,Electronic Gaming & Multimedia,Communication Services,mid,-2.6469306072500833,-2.9105692804656718
-HUN,Huntsman Corp,30897097.0,Chemicals,Basic Materials,mid,0.7941698392416875,0.5749642265800088
-VLEEY,Valeo Sa ADR,30549028.0,Auto Parts,Consumer Cyclical,mid,2.5532288723393273,0.46105096561811515
-EEFT,Euronet Worldwide,27714543.0,Software—Infrastructure,Technology,mid,1.3787525292411165,-0.6022675798067413
-EWBC,East West Bancorp,24621609.0,Banks—Diversified,Financial Services,mid,2.4881396264829228,1.1927564783270403
-CPRI,Capri Holdings Ltd,23240898.0,Apparel Manufacturing,Consumer Cyclical,mid,-0.4150178224821445,1.9094755894638278
-REGI,Renewable Energy,21984194.0,Oil & Gas Refining & Marketing,Energy,mid,-3.820090512817912,-1.0384470281124276
-LXP,Lexington Realty Trust,21413558.0,REIT—Diversified,Real Estate,mid,-0.7064909761346686,3.9703402356274937
-SRCL,Stericycle Inc,21285168.0,Waste Management,Industrials,mid,0.6041539294857241,-0.05472584075639426
-CC,Chemours Company,20794181.0,Specialty Chemicals,Basic Materials,mid,-1.2000125332582474,0.609524257601033
-G,Genpact Ltd,19456812.0,Information Technology Services,Technology,mid,1.344067095842692,-0.4033976427281473
-AL,Air Lease Corp Cl A,18980451.0,Rental & Leasing Services,Industrials,mid,-0.7112550968764326,2.2525261349038908
-DIOD,Diodes Inc,18438649.0,Semiconductors,Technology,mid,0.18754949243499583,-0.8822899511119286
-SLM,SLM Corp,18358405.0,Credit Services,Financial Services,mid,0.539080004421924,2.765002123350494
-CSTM,Constellium N.V.,16599437.0,Aluminum,Basic Materials,mid,-1.6458729017189064,2.1467946851367614
-VNE,Veoneer Inc,16248722.0,Auto Parts,Consumer Cyclical,mid,-2.930421003337514,1.2508537737961545
-WTS,Watts Water Technologies,16194279.0,Specialty Industrial Machinery,Industrials,mid,0.05033473872642582,-1.972190168432158
-CSIQ,Canadian Solar Inc,16033906.0,Solar,Technology,mid,-2.159091257565104,-0.05764947553241422
-EME,Emcor Group,14170920.0,Engineering & Construction,Industrials,mid,0.35760853245184154,-0.4786850957380516
-CRI,Carter's Inc,13428122.0,Apparel Retail,Consumer Cyclical,mid,-0.44634365891149247,-0.9316013951449829
-SEIC,Sei Investments Company,13178169.0,Asset Management,Financial Services,mid,2.0049942137063614,-0.6085858977653168
-MSA,Msa Safety Inc,12772936.0,Security & Protection Services,Industrials,mid,0.8951285246778632,-2.2711167095225573
-HXL,Hexcel Corp,12505986.0,Aerospace & Defense,Industrials,mid,-0.9872417081083157,-2.325439563454387
-GLOB,Globant S.A.,10892078.0,Software—Application,Technology,mid,0.9377057396276806,-5.4412946336821
-LAUR,Laureate Education Inc,10744653.0,Education & Training Services,Consumer Defensive,mid,-2.032177510941766,-0.5106123085371289
-CLNE,Clean Energy Fuels,10389323.0,Oil & Gas Refining & Marketing,Energy,mid,-9.870839215904304,2.5266969934600185
-VIRT,Virtu Financial Cm A,9770189.0,Capital Markets,Financial Services,mid,1.561679513592876,1.4618764097029182
-BZUN,Baozun Inc Ads,7504874.0,Internet Retail,Consumer Cyclical,mid,1.10718428095464,-3.254806352038528
-RP,Realpage Inc,7136396.0,Software—Application,Technology,mid,-0.6830327179636311,-4.45367091075594
-LGIH,LGI Homes Inc,7037741.0,Residential Construction,Consumer Cyclical,mid,-1.411622386331898,-0.5138797967116402
-MRPRF,Merlin/Ac 1.00,6801580.0,REIT—Diversified,Real Estate,mid,2.893543858227353,2.362816644982886
-PRGO,Perrigo Company,6769743.0,Drug Manufacturers—Specialty & Generic,Healthcare,mid,0.12468598308798055,0.4155943927352136
-ARCC,Ares Capital Corp,5909840.0,Asset Management,Financial Services,mid,1.8297883433645874,3.295530827260971
-CNS,Cohn & Steers Inc,5904759.0,Asset Management,Financial Services,mid,2.3003527461888087,-4.016839868791003
-MBT,Mobile Telesystems,5733976.0,Telecom Services,Communication Services,mid,8.080286241760476,0.41328335408121014
-CRNC,Cerence Inc,5550238.0,Software—Application,Technology,mid,-5.8164626051100266,-2.0399429037371015
-CIT,Cit Group Inc,4970207.0,Banks—Regional,Financial Services,mid,-1.6276008032336204,1.1700745966886146
-UGP,Ultrapar Participacoes S.A.,4937033.0,Oil & Gas Refining & Marketing,Energy,mid,0.6073748585055896,0.8754955757022128
-PK,Park Hotels & Resorts Inc,4596467.0,REIT—Hotel & Motel,Real Estate,mid,0.1288618558508602,10.27242881917996
-USFD,US Foods Holding,4436170.0,Food Distribution,Consumer Defensive,mid,1.4173199481043033,0.6549285096309082
-ST,Sensata Technologies Holding N.V.,4324840.0,Scientific & Technical Instruments,Technology,mid,1.7059675482538916,-0.833139408734968
-OC,Owens Corning Inc,4322317.0,Building Products & Equipment,Industrials,mid,1.7801344709334794,0.27274574366201193
-ADS,Alliance Data Systems Corp,4216184.0,Credit Services,Financial Services,mid,-0.7842088137421278,1.1734103874882886
+ARW,Arrow Electronics,250804072.0,Electronics & Computer Distribution,Technology,mid,-0.2877449498549051,-1.6258029917456682
+VSH,Vishay Intertechnology,190955726.0,Semiconductors,Technology,mid,5.025245937449027,2.285159598485245
+STLD,Steel Dynamics Inc,41766026.0,Steel,Basic Materials,mid,1.2983082196710145,-4.960075406989567
+VIAV,Viavi Solutions,40152105.0,Communication Equipment,Technology,mid,-1.126670392987903,6.0663925901914695
+SANM,Sanmina Corp,38267244.0,Electronic Components,Technology,mid,2.1694917997106216,2.6843730553009113
+MTZ,Mastec Inc,38244405.0,Engineering & Construction,Industrials,mid,-4.150294439858753,-5.61566240810217
+GLUU,Glu Mobile Inc,32171446.0,Electronic Gaming & Multimedia,Communication Services,mid,-7.634485890566064,8.384419062806982
+HUN,Huntsman Corp,30897097.0,Chemicals,Basic Materials,mid,-1.2280732496363824,-2.9038939839600886
+VLEEY,Valeo Sa ADR,30549028.0,Auto Parts,Consumer Cyclical,mid,0.8948462984139863,-3.54935444116371
+EEFT,Euronet Worldwide,27714543.0,Software—Infrastructure,Technology,mid,2.4926239449557737,1.9851313538338016
+EWBC,East West Bancorp,24621609.0,Banks—Diversified,Financial Services,mid,1.6152211652337867,-2.2664959924334562
+CPRI,Capri Holdings Ltd,23240898.0,Apparel Manufacturing,Consumer Cyclical,mid,10.029514243160339,-0.5965415015575694
+REGI,Renewable Energy,21984194.0,Oil & Gas Refining & Marketing,Energy,mid,-6.584349963347578,-10.181188895707217
+SRCL,Stericycle Inc,21285168.0,Waste Management,Industrials,mid,-3.6731568831886405,0.4231141244412645
+CC,Chemours Company,20794181.0,Specialty Chemicals,Basic Materials,mid,3.370240906802599,-4.519470668399948
+G,Genpact Ltd,19456812.0,Information Technology Services,Technology,mid,-4.194736777588273,1.1705867232233709
+AL,Air Lease Corp Cl A,18980451.0,Rental & Leasing Services,Industrials,mid,9.802473089867574,-3.3082356335490446
+DIOD,Diodes Inc,18438649.0,Semiconductors,Technology,mid,1.9287018678371748,4.420278054052483
+SLM,SLM Corp,18358405.0,Credit Services,Financial Services,mid,-2.7629946585229557,-6.765911674267457
+CSTM,Constellium N.V.,16599437.0,Aluminum,Basic Materials,mid,5.8163670726326995,-4.992384761115048
+VNE,Veoneer Inc,16248722.0,Auto Parts,Consumer Cyclical,mid,8.221022278368931,2.1253398259588807
+WTS,Watts Water Technologies,16194279.0,Specialty Industrial Machinery,Industrials,mid,-3.5084306690968163,-2.102078337218645
+CSIQ,Canadian Solar Inc,16033906.0,Solar,Technology,mid,3.266680238268921,8.976459570489926
+EME,Emcor Group,14170920.0,Engineering & Construction,Industrials,mid,-0.5562132390583887,0.3945705483951258
+CRI,Carter's Inc,13428122.0,Apparel Retail,Consumer Cyclical,mid,0.08847411186640833,-1.8015777580986494
+SEIC,Sei Investments Company,13178169.0,Asset Management,Financial Services,mid,-4.257013387784488,-0.17424615929363801
+MSA,Msa Safety Inc,12772936.0,Security & Protection Services,Industrials,mid,-3.943916377345602,-3.002324850431407
+HXL,Hexcel Corp,12505986.0,Aerospace & Defense,Industrials,mid,5.712167357291716,-6.332778071796481
+GLOB,Globant S.A.,10892078.0,Software—Application,Technology,mid,-6.40756943466034,9.08823796662602
+LAUR,Laureate Education Inc,10744653.0,Education & Training Services,Consumer Defensive,mid,-3.8919207937716305,-4.116135348671634
+CLNE,Clean Energy Fuels,10389323.0,Oil & Gas Refining & Marketing,Energy,mid,-3.4509701227754124,21.360238734274112
+VIRT,Virtu Financial Cm A,9770189.0,Capital Markets,Financial Services,mid,-9.247779068054793,-6.239374127909161
+BZUN,Baozun Inc Ads,7504874.0,Internet Retail,Consumer Cyclical,mid,-2.670425309078649,8.925153071188783
+RP,Realpage Inc,7136396.0,Software—Application,Technology,mid,-6.270900047837484,6.494414886340242
+LGIH,LGI Homes Inc,7037741.0,Residential Construction,Consumer Cyclical,mid,-1.4569130161515247,-7.939817802945888
+PRGO,Perrigo Company,6769743.0,Drug Manufacturers—Specialty & Generic,Healthcare,mid,-4.4154504507301,-5.153008271457565
+ARCC,Ares Capital Corp,5909840.0,Asset Management,Financial Services,mid,-2.297030113447065,-4.117719034910141
+CRNC,Cerence Inc,5550238.0,Software—Application,Technology,mid,-7.040059520919473,4.585322486282268
+CIT,Cit Group Inc,4970207.0,Banks—Regional,Financial Services,mid,13.829437448980082,3.2947738757056024
+PK,Park Hotels & Resorts Inc,4596467.0,REIT—Hotel & Motel,Real Estate,mid,18.059880223955602,-1.9491268172036968
+USFD,US Foods Holding,4436170.0,Food Distribution,Consumer Defensive,mid,3.806716927144107,3.453763801334333
+ST,Sensata Technologies Holding N.V.,4324840.0,Scientific & Technical Instruments,Technology,mid,-2.1366936344525067,2.181675687588751
+OC,Owens Corning Inc,4322317.0,Building Products & Equipment,Industrials,mid,-1.8841374558339106,-1.7397017942155328
+ADS,Alliance Data Systems Corp,4216184.0,Credit Services,Financial Services,mid,10.223733516821575,3.9693354905483624
+COKE,Coca Cola Bot Cons,3987898.0,Beverages—Non-Alcoholic,Consumer Defensive,mid,-4.685782150442426,-4.222359385002284
+ITRI,Itron Inc,3798532.0,Scientific & Technical Instruments,Technology,mid,2.064850790654729,4.221828227734862
+OMCL,Omnicell Inc,3680593.0,Health Information Services,Healthcare,mid,-5.759494881001828,0.6940202277800935
+RHI,Robert Half International Inc,3675305.0,Staffing & Employment Services,Industrials,mid,-2.3805573891847573,-1.8346939217195875
+ICUI,I C U Medical Inc,3627997.0,Medical Instruments & Supplies,Healthcare,mid,-4.808830534062861,-4.410803978204038
+NVST,Envista Holdings Corp,3593139.0,Medical Instruments & Supplies,Healthcare,mid,2.9965973621548083,-0.763824944513606

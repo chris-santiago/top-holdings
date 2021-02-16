@@ -1,51 +1,51 @@
 ticker,company,value,industry,sector,market_cap,pc1,pc2
-MSFT,Microsoft Corp,1162300473.0,Software—Infrastructure,Technology,mega,-1.549725075002249,-2.9009756359589103
-AAPL,Apple Inc,869179132.0,Consumer Electronics,Technology,mega,-4.714169470224063,-4.62769090670593
-FB,Facebook Inc,709780548.0,Internet Content & Information,Communication Services,mega,0.05589882533880184,-1.3852341345846422
-GOOG,Alphabet Cl C,699887636.0,Internet Content & Information,Communication Services,mega,-0.9612446386274538,-1.7356296911363476
-AMZN,Amazon.com Inc,578525653.0,Internet Retail,Consumer Cyclical,mega,-0.7789241008509431,-2.5431487345174872
-JNJ,Johnson & Johnson,388973118.0,Drug Manufacturers—General,Healthcare,mega,0.11259950060269552,0.7949274279406199
-V,Visa Inc,276777318.0,Credit Services,Financial Services,mega,1.3511160459484917,-2.69231026871091
-JPM,Jpmorgan Chase & CO [Jpm/Pc],254640050.0,Banks—Diversified,Financial Services,mega,-1.7650494479969854,0.5246520564052559
-BAC,Bank of America Corp,232182698.0,Banks—Diversified,Financial Services,mega,-2.975026839047456,-0.6874786915841767
-MA,Mastercard Inc,170718836.0,Credit Services,Financial Services,mega,1.939976609040563,-2.586264146082511
-TSLA,Tesla Inc,165762387.0,Auto Manufacturers,Consumer Cyclical,mega,9.651743265144384,-7.388320413675647
-DIS,Walt Disney Company,149518794.0,Entertainment,Communication Services,mega,1.908629561106215,0.2545868356527968
-PG,Procter & Gamble Company,147753027.0,Household & Personal Products,Consumer Defensive,mega,-0.09759905587509654,1.487820618436693
-PYPL,Paypal Holdings,143279435.0,Credit Services,Financial Services,mega,2.290250541502244,-1.3564355420093543
-INTC,Intel Corp,140668843.0,Semiconductors,Technology,mega,1.328520227679516,1.7377943050582871
-UNH,Unitedhealth Group Inc,137952454.0,Healthcare Plans,Healthcare,mega,0.11720083000357347,1.0899226611063002
-NKE,Nike Inc,121969078.0,Footwear & Accessories,Consumer Cyclical,mega,1.2041100127286752,0.1371951830220679
-TMO,Thermo Fisher Scientific Inc,109958962.0,Diagnostics & Research,Healthcare,mega,0.2606839380278792,-0.008885476533123264
-HD,Home Depot,109103120.0,Home Improvement Retail,Consumer Cyclical,mega,6.097905398264913,2.4589074176712185
-NVDA,Nvidia Corp,100375795.0,Semiconductors,Technology,mega,2.829104725074717,-2.4486118476453123
-BABA,Alibaba Group Holding,98563273.0,Internet Retail,Consumer Cyclical,mega,-3.2387415672019317,-0.14010849921478663
-TSM,Taiwan Semiconductor Manufacturing,95241672.0,Semiconductors,Technology,mega,-1.709167691349616,-0.6623029632425228
-CMCSA,Comcast Corp A,91398328.0,Entertainment,Communication Services,mega,1.0810460428219433,0.8729049779034078
-ABT,Abbott Laboratories,90078682.0,Medical Devices,Healthcare,mega,0.4624606943137337,0.4865019210800607
-VZ,Verizon Communications Inc,78137676.0,Telecom Services,Communication Services,mega,0.4634979239625563,2.5567688842943106
-ADBE,Adobe Systems Inc,74898888.0,Software—Infrastructure,Technology,mega,1.5635392350981112,-1.8677641007102603
-T,AT&T Inc,72059243.0,Telecom Services,Communication Services,mega,1.7104513644032853,4.26676223170438
-NFLX,Netflix Inc,67193851.0,Entertainment,Communication Services,mega,1.6850623218991887,-0.3883042161475099
-WMT,Wal-Mart Stores,65898892.0,Discount Stores,Consumer Defensive,mega,0.24044027743861335,1.513351744370352
-CRM,Salesforce.com Inc,60788980.0,Software—Application,Technology,mega,3.4563121399288317,-0.9208667193123015
-XOM,Exxon Mobil Corp,51189441.0,Oil & Gas Integrated,Energy,mega,1.0221567783794494,4.9015461433278835
-BABAF,Alibaba Group Holding Ltd,40094821.0,Internet Retail,Consumer Cyclical,mega,-1.2904861130251615,-0.1345476906616603
-PDD,Pinduoduo Inc ADR,7147798.0,Internet Retail,Consumer Cyclical,mega,-1.7711462056096772,-10.11209651596794
-NVS,Novartis Ag,6827700.0,Drug Manufacturers—General,Healthcare,mega,-0.5056192759247637,1.0590589658999632
-UL,Unilever Plc,5321530.0,Household & Personal Products,Consumer Defensive,mega,-0.5615224405309089,2.8790582018738453
-ASML,Asml Hld NY Reg,3820031.0,Semiconductor Equipment & Materials,Technology,mega,-0.7896473870468752,-0.02687126613192124
-JPM,JP Morgan Chase & Company,3366543.0,Banks—Diversified,Financial Services,mega,-1.7650494479969854,0.524652056405256
-TCEHY,Tencent Holdings ADR,2833586.0,Internet Content & Information,Communication Services,mega,-5.016407569178397,-0.30275400941732683
-LVMHF,Lvmh Moet Henn L Vut,1481027.0,Luxury Goods,Consumer Cyclical,mega,-0.557419586863505,0.667246560878211
-GOOGL,Alphabet Cl A,1477956.0,Internet Content & Information,Communication Services,mega,-0.5751977079810946,-1.7885344905140814
-TM,Toyota Motor Corp Ltd Ord,1165596.0,Auto Manufacturers,Consumer Cyclical,mega,-0.3308412111016565,1.9435334123261436
-LRLCY,L'Oreal CO ADR,1157274.0,Household & Personal Products,Consumer Defensive,mega,-1.2344763717111025,2.275738253458551
-NSRGY,Nestle Sa ADR,830596.0,Packaged Foods,Consumer Defensive,mega,-0.8119323662445733,2.194969239258889
-KO,Coca-Cola Company,753233.0,Beverages—Non-Alcoholic,Consumer Defensive,mega,0.7457069835111232,1.4813856100128602
-IDCBF,Industrial & Commer,174435.0,Banks—Diversified,Financial Services,mega,-2.437848773614575,3.2720107959858864
-RHHBY,Roche Holdings Ltd ADR,159433.0,Drug Manufacturers—General,Healthcare,mega,-1.2346003326554416,2.591529256162578
-ASMLF,Asml Hld NV Ord Shs,52201.0,Semiconductor Equipment & Materials,Technology,mega,-0.8824597490902774,0.12462686757531825
-LVMUY,Lvmh Moet Henn,35837.0,Luxury Goods,Consumer Cyclical,mega,-0.713211339309549,0.759789870789309
-RHHBF,Roche Holdings Ag Beare,27007.0,Drug Manufacturers—General,Healthcare,mega,-1.8766275334817426,1.8667382789841025
-UNLYF,Unilever Plc GBP .01,24856.0,Household & Personal Products,Consumer Defensive,mega,-1.434271944677424,1.9811561828801174
+MSFT,Microsoft Corp,1162300473.0,Software—Infrastructure,Technology,mega,6.873116770916593,-0.8929092208916108
+AAPL,Apple Inc,869179132.0,Consumer Electronics,Technology,mega,11.882883476963984,-1.4845223861359114
+FB,Facebook Inc,709780548.0,Internet Content & Information,Communication Services,mega,10.073045854619203,2.078426423069012
+GOOG,Alphabet Cl C,699887636.0,Internet Content & Information,Communication Services,mega,11.803448344023785,-1.1392186681602832
+AMZN,Amazon.com Inc,578525653.0,Internet Retail,Consumer Cyclical,mega,13.117382738683226,-1.0781040842233005
+JNJ,Johnson & Johnson,388973118.0,Drug Manufacturers—General,Healthcare,mega,-4.798434133175871,-5.233511631626358
+V,Visa Inc,276777318.0,Credit Services,Financial Services,mega,4.2437740654205465,4.133434744053553
+JPM,Jpmorgan Chase & CO [Jpm/Pc],254640050.0,Banks—Diversified,Financial Services,mega,-10.580856260225955,5.5581673641896625
+BAC,Bank of America Corp,232182698.0,Banks—Diversified,Financial Services,mega,-12.095071988162385,3.092834744308533
+MA,Mastercard Inc,170718836.0,Credit Services,Financial Services,mega,3.2044043198633982,4.951796813753162
+TSLA,Tesla Inc,165762387.0,Auto Manufacturers,Consumer Cyclical,mega,15.142770953984112,26.49425846382344
+DIS,Walt Disney Company,149518794.0,Entertainment,Communication Services,mega,-10.756473482400107,5.570305904972792
+PG,Procter & Gamble Company,147753027.0,Household & Personal Products,Consumer Defensive,mega,-2.7321585001094904,-3.5037680728699754
+PYPL,Paypal Holdings,143279435.0,Credit Services,Financial Services,mega,10.115935411692918,5.33007409997829
+INTC,Intel Corp,140668843.0,Semiconductors,Technology,mega,-6.362106083888141,1.3944034288631963
+UNH,Unitedhealth Group Inc,137952454.0,Healthcare Plans,Healthcare,mega,-3.6646427310730787,-0.6883355491750979
+NKE,Nike Inc,121969078.0,Footwear & Accessories,Consumer Cyclical,mega,-8.1426801814219,0.45672954844805036
+TMO,Thermo Fisher Scientific Inc,109958962.0,Diagnostics & Research,Healthcare,mega,-1.8563272777331943,-10.240916063984725
+HD,Home Depot,109103120.0,Home Improvement Retail,Consumer Cyclical,mega,-2.2603072398810284,-1.2238146876203018
+NVDA,Nvidia Corp,100375795.0,Semiconductors,Technology,mega,7.5246620720767075,9.541741000715277
+BABA,Alibaba Group Holding,98563273.0,Internet Retail,Consumer Cyclical,mega,9.281404671611858,-9.516357351874593
+TSM,Taiwan Semiconductor Manufacturing,95241672.0,Semiconductors,Technology,mega,-2.6447633632052967,-2.3141484710129165
+CMCSA,Comcast Corp A,91398328.0,Entertainment,Communication Services,mega,-5.355702381071769,1.1795609247676881
+ABT,Abbott Laboratories,90078682.0,Medical Devices,Healthcare,mega,0.2509269029032393,-5.1110594794466016
+VZ,Verizon Communications Inc,78137676.0,Telecom Services,Communication Services,mega,-6.285473635492362,-3.2847812317746397
+ADBE,Adobe Systems Inc,74898888.0,Software—Infrastructure,Technology,mega,9.163644424823993,5.501607110425723
+T,AT&T Inc,72059243.0,Telecom Services,Communication Services,mega,-9.287015279809289,-3.786347737971092
+NFLX,Netflix Inc,67193851.0,Entertainment,Communication Services,mega,10.980969462272707,2.316792358820769
+WMT,Wal-Mart Stores,65898892.0,Discount Stores,Consumer Defensive,mega,-1.308720814514782,-3.5628947871074224
+CRM,Salesforce.com Inc,60788980.0,Software—Application,Technology,mega,10.432654919008368,6.426917016574645
+XOM,Exxon Mobil Corp,51189441.0,Oil & Gas Integrated,Energy,mega,-12.894795843756585,0.6622211144272543
+PDD,Pinduoduo Inc ADR,7147798.0,Internet Retail,Consumer Cyclical,mega,25.945068244375104,-10.536730290979426
+UL,Unilever Plc,5321530.0,Household & Personal Products,Consumer Defensive,mega,-4.600209914803498,-4.886064292890005
+ASML,Asml Hld NY Reg,3820031.0,Semiconductor Equipment & Materials,Technology,mega,1.319660453063299,8.802279410921457
+JPM,JP Morgan Chase & Company,3366543.0,Banks—Diversified,Financial Services,mega,-10.58085626022595,5.5581673641896625
+TCEHY,Tencent Holdings ADR,2833586.0,Internet Content & Information,Communication Services,mega,10.76768205175071,-11.746142264246002
+LVMHF,Lvmh Moet Henn L Vut,1481027.0,Luxury Goods,Consumer Cyclical,mega,-9.20510146101221,9.25521325954808
+GOOGL,Alphabet Cl A,1477956.0,Internet Content & Information,Communication Services,mega,11.29650897976122,-0.6483540599709333
+TM,Toyota Motor Corp Ltd Ord,1165596.0,Auto Manufacturers,Consumer Cyclical,mega,-9.145476893504403,2.5939282747861947
+LRLCY,L'Oreal CO ADR,1157274.0,Household & Personal Products,Consumer Defensive,mega,-6.309970183158002,2.057205904603375
+NSRGY,Nestle Sa ADR,830596.0,Packaged Foods,Consumer Defensive,mega,-4.449681408269313,-5.138750889543397
+KO,Coca-Cola Company,753233.0,Beverages—Non-Alcoholic,Consumer Defensive,mega,-5.265205935265989,0.8110988029563257
+RHHBY,Roche Holdings Ltd ADR,159433.0,Drug Manufacturers—General,Healthcare,mega,-6.52071047449668,-7.276051182680429
+ASMLF,Asml Hld NV Ord Shs,52201.0,Semiconductor Equipment & Materials,Technology,mega,-2.6726157050347505,12.063803463060893
+LVMUY,Lvmh Moet Henn,35837.0,Luxury Goods,Consumer Cyclical,mega,-8.398077549415497,9.645837279047306
+RHHBF,Roche Holdings Ag Beare,27007.0,Drug Manufacturers—General,Healthcare,mega,-7.16200336839273,-8.18242120558813
+UNLYF,Unilever Plc GBP .01,24856.0,Household & Personal Products,Consumer Defensive,mega,-5.154114043877466,-8.144958925494578
+PIAIF,Ping An Insurance,24296.0,Insurance—Life,Financial Services,mega,-6.82222233299841,-7.41063050430519
+TCTZF,Tencent Holdings Ltd,17788.0,Internet Content & Information,Communication Services,mega,10.700551503614337,-11.474847555910058
+PNGAY,Ping An Ins CO ADR,3980.0,Insurance—Life,Financial Services,mega,-6.808720895053157,-6.971164224821326

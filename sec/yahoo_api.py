@@ -149,4 +149,21 @@ def main():
         out = parse_summary(stats_data, table)
         out = to_dataframe(out)
         out.to_sql(f'yahoo_{table}', conn, if_exists='replace', index=False)
+
+    history = YahooHistory()
+    history.run(top['ticker'])
+
+    out = {}
+    for outer in history.data_:
+        for item in outer:
+            for ticker in item:
+                try:
+                    out[ticker] = item[ticker]['close']
+                except KeyError:
+                    out[ticker] = None
+
+    out2 = {k: v for k,v in out.items() if v and len(v) == 54}
+    df = pd.DataFrame().from_dict(out2).pct_change()
+    df = df.iloc[1:, :].T.reset_index()
+    df.to_sql(f'yahoo_history', conn, if_exists='replace', index=False)
     conn.close()

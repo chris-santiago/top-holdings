@@ -34,18 +34,20 @@ profile = pd.read_sql(
     """,
     CONN
 )
+history = pd.read_sql('select * from yahoo_history;', CONN)
 CONN.close()
 
 data = holdings.set_index('ticker').merge(profile.set_index('ticker'), left_index=True, right_index=True)
 data = data.merge(summary.set_index('ticker'), left_index=True, right_index=True)
 data = data.merge(stats.set_index('ticker'), left_index=True, right_index=True)
+data = data.merge(history.set_index('ticker'), left_index=True, right_index=True)
 cap = pd.cut(
     data['marketCap'],
     bins=[-np.inf, 3e8, 2e9, 10e9, 2e11, np.inf],
     labels=['micro', 'small', 'mid', 'large', 'mega']
 )
 data.insert(4, 'market_cap', cap)
-
+data = data.iloc[:, :-1]
 
 for mcap in data['market_cap'].unique():
     mask = data['market_cap'] == mcap
@@ -58,8 +60,8 @@ for mcap in data['market_cap'].unique():
         steps=[
             ('scaler', StandardScaler()),
             # ('pca', PCA(n_components=2)),
-            # ('encode', Isomap(n_neighbors=3, n_components=2)),
-            ('mds', MDS())
+            ('encode', Isomap(n_neighbors=5, n_components=2)),
+            # ('mds', MDS(metric=False))
         ]
     )
     components = pl.fit_transform(df_num)
