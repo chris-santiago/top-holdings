@@ -7,4 +7,5 @@ tickers/
 tickers/*
 old_files/
 old_files*
-yahoo*.json
+*.json
+key_stats.csv
